@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mosaico-mysql
+    environment:
+      MYSQL_DATABASE: mosaico
+      MYSQL_USER: mosaico
+      MYSQL_PASSWORD: mosaico
+      MYSQL_ROOT_PASSWORD: mosaico
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - mosaico-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mysql_data:
+    name: mosaico_mysql_data
+
+networks:
+  mosaico-network:
+    name: mosaico-network
+    driver: bridge

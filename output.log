@@ -1,0 +1,1569 @@
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+[1mApache Maven 3.8.8[m
+Maven home: /usr/share/maven
+Java version: 21.0.5, vendor: Debian, runtime: /usr/lib/jvm/java-21-openjdk-amd64
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "6.8.11-amd64", arch: "amd64", family: "unix"
+[[1;36mDEBUG[m] Created new class realm maven.api
+[[1;36mDEBUG[m] Importing foreign packages into class realm maven.api
+[[1;36mDEBUG[m]   Imported: javax.annotation.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.annotation.security.* < plexus.core
+[[1;36mDEBUG[m]   Imported: javax.inject.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.artifact < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.classrealm < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.cli < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.configuration < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.exception < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.execution < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.execution.scope < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.graph < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.lifecycle < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.model < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.monitor < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.plugin < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.profiles < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.project < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.reporting < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.rtinfo < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.settings < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.toolchain < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.usability < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.events < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.observers < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.apache.maven.wagon.resource < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.classworlds < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.component < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.configuration < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.container < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.context < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.logging < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.personality < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[[1;36mDEBUG[m]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.artifact < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.collection < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.deployment < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.graph < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.impl < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.installation < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.metadata < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.repository < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.resolution < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.spi < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.transfer < plexus.core
+[[1;36mDEBUG[m]   Imported: org.eclipse.aether.version < plexus.core
+[[1;36mDEBUG[m]   Imported: org.fusesource.jansi.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.event.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.helpers.* < plexus.core
+[[1;36mDEBUG[m]   Imported: org.slf4j.spi.* < plexus.core
+[[1;36mDEBUG[m] Populating class realm maven.api
+[[1;34mINFO[m] Error stacktraces are turned on.
+[[1;36mDEBUG[m] Message scheme: color
+[[1;36mDEBUG[m] Message styles: [1;36mdebug[m [1;34minfo[m [1;33mwarning[m [1;31merror[m [1;32msuccess[m [1;31mfailure[m [1mstrong[m [32mmojo[m [36mproject[m
+[[1;36mDEBUG[m] Reading global settings from /usr/share/maven/conf/settings.xml
+[[1;36mDEBUG[m] Reading user settings from /home/cr8/.m2/settings.xml
+[[1;36mDEBUG[m] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+[[1;36mDEBUG[m] Reading user toolchains from /home/cr8/.m2/toolchains.xml
+[[1;36mDEBUG[m] Using local repository at /home/cr8/.m2/repository
+[[1;36mDEBUG[m] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/cr8/.m2/repository
+[[1;34mINFO[m] Scanning for projects...
+[[1;36mDEBUG[m] Extension realms for project br.com.saudemosaico:saude-mosaico:jar:0.0.1-SNAPSHOT: (none)
+[[1;36mDEBUG[m] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[[1;36mDEBUG[m] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:3.2.1: (none)
+[[1;36mDEBUG[m] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[[1;36mDEBUG[m] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:3.2.1: (none)
+[[1;36mDEBUG[m] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[[1;36mDEBUG[m] Resolving plugin prefix spring-boot from [org.apache.maven.plugins, org.codehaus.mojo]
+[[1;36mDEBUG[m] Resolved plugin prefix spring-boot to org.springframework.boot:spring-boot-maven-plugin from POM br.com.saudemosaico:saude-mosaico:jar:0.0.1-SNAPSHOT
+[[1;36mDEBUG[m] === REACTOR BUILD PLAN ================================================
+[[1;36mDEBUG[m] Project: br.com.saudemosaico:saude-mosaico:jar:0.0.1-SNAPSHOT
+[[1;36mDEBUG[m] Tasks:   [spring-boot:run]
+[[1;36mDEBUG[m] Style:   Regular
+[[1;36mDEBUG[m] =======================================================================
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mbr.com.saudemosaico:saude-mosaico[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding saude-mosaico 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;36mDEBUG[m] Resolving plugin prefix spring-boot from [org.apache.maven.plugins, org.codehaus.mojo]
+[[1;36mDEBUG[m] Resolved plugin prefix spring-boot to org.springframework.boot:spring-boot-maven-plugin from POM br.com.saudemosaico:saude-mosaico:jar:0.0.1-SNAPSHOT
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[[1;36mDEBUG[m] Lifecycle clean -> [pre-clean, clean, post-clean]
+[[1;36mDEBUG[m] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[[1;36mDEBUG[m] === PROJECT BUILD PLAN ================================================
+[[1;36mDEBUG[m] Project:       br.com.saudemosaico:saude-mosaico:0.0.1-SNAPSHOT
+[[1;36mDEBUG[m] Dependencies (collect): []
+[[1;36mDEBUG[m] Dependencies (resolve): [test]
+[[1;36mDEBUG[m] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[[1;36mDEBUG[m] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[[1;36mDEBUG[m] --- init fork of br.com.saudemosaico:saude-mosaico:0.0.1-SNAPSHOT for org.springframework.boot:spring-boot-maven-plugin:3.2.1:run (default-cli) ---
+[[1;36mDEBUG[m] Dependencies (collect): []
+[[1;36mDEBUG[m] Dependencies (resolve): [compile, test]
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources (default-resources)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <propertiesEncoding>UTF-8</propertiesEncoding>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">true</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources (default-testResources)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <propertiesEncoding>UTF-8</propertiesEncoding>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile (default-testCompile)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac-test"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <parameters default-value="false">true</parameters>
+  <project default-value="${project}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <useModulePath default-value="true"/>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[[1;36mDEBUG[m] --- exit fork of br.com.saudemosaico:saude-mosaico:0.0.1-SNAPSHOT for org.springframework.boot:spring-boot-maven-plugin:3.2.1:run (default-cli) ---
+[[1;36mDEBUG[m] -----------------------------------------------------------------------
+[[1;36mDEBUG[m] Goal:          org.springframework.boot:spring-boot-maven-plugin:3.2.1:run (default-cli)
+[[1;36mDEBUG[m] Style:         Regular
+[[1;36mDEBUG[m] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addResources default-value="false">${spring-boot.run.addResources}</addResources>
+  <additionalClasspathElements>${spring-boot.run.additional-classpath-elements}</additionalClasspathElements>
+  <agents>${spring-boot.run.agents}</agents>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <commandlineArguments>${spring-boot.run.arguments}</commandlineArguments>
+  <directories>${spring-boot.run.directories}</directories>
+  <excludeGroupIds default-value="">${spring-boot.excludeGroupIds}</excludeGroupIds>
+  <excludes>
+    <exclude>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </exclude>${spring-boot.excludes}</excludes>
+  <includes>${spring-boot.includes}</includes>
+  <jvmArguments>${spring-boot.run.jvmArguments}</jvmArguments>
+  <mainClass>${start-class}</mainClass>
+  <noverify>${spring-boot.run.noverify}</noverify>
+  <optimizedLaunch default-value="true">${spring-boot.run.optimizedLaunch}</optimizedLaunch>
+  <profiles>${spring-boot.run.profiles}</profiles>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${spring-boot.run.skip}</skip>
+  <useTestClasspath default-value="false">${spring-boot.run.useTestClasspath}</useTestClasspath>
+  <workingDirectory>${spring-boot.run.workingDirectory}</workingDirectory>
+</configuration>
+[[1;36mDEBUG[m] =======================================================================
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36msaude-mosaico[0;1m >>>[m
+[[1;36mDEBUG[m] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[[1;36mDEBUG[m] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-snapshots (http://oss.sonatype.org/content/repositories/vaadin-snapshots/).
+[[1;36mDEBUG[m] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-releases (http://oss.sonatype.org/content/repositories/vaadin-releases/).
+[[1;36mDEBUG[m] Dependency collection stats {ConflictMarker.analyzeTime=1289343, ConflictMarker.markTime=524508, ConflictMarker.nodeCount=286, ConflictIdSorter.graphTime=1064921, ConflictIdSorter.topsortTime=460725, ConflictIdSorter.conflictIdCount=117, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=15827868, ConflictResolver.conflictItemCount=249, DefaultDependencyCollector.collectTime=479166915, DefaultDependencyCollector.transformTime=20834002}
+[[1;36mDEBUG[m] br.com.saudemosaico:saude-mosaico:jar:0.0.1-SNAPSHOT
+[[1;36mDEBUG[m]    org.springframework.boot:spring-boot-starter-web:jar:3.2.1:compile
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-starter:jar:3.2.1:compile (version managed from 3.2.1)
+[[1;36mDEBUG[m]          org.springframework.boot:spring-boot:jar:3.2.1:compile (version managed from 3.2.1)
+[[1;36mDEBUG[m]          org.springframework.boot:spring-boot-autoconfigure:jar:3.2.1:compile (version managed from 3.2.1)
+[[1;36mDEBUG[m]          org.springframework.boot:spring-boot-starter-logging:jar:3.2.1:compile (version managed from 3.2.1)
+[[1;36mDEBUG[m]             ch.qos.logback:logback-classic:jar:1.4.14:compile (version managed from 1.4.14)
+[[1;36mDEBUG[m]                ch.qos.logback:logback-core:jar:1.4.14:compile (version managed from 1.4.14)
+[[1;36mDEBUG[m]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.21.1:compile (version managed from 2.21.1)
+[[1;36mDEBUG[m]                org.apache.logging.log4j:log4j-api:jar:2.21.1:compile (version managed from 2.21.1)
+[[1;36mDEBUG[m]             org.slf4j:jul-to-slf4j:jar:2.0.9:compile (version managed from 2.0.9)
+[[1;36mDEBUG[m]          jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (version managed from 2.1.1)
+[[1;36mDEBUG[m]          org.yaml:snakeyaml:jar:2.2:compile (version managed from 2.2)
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-starter-json:jar:3.2.1:compile (version managed from 3.2.1)
+[[1;36mDEBUG[m]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.15.3:compile (version managed from 2.15.3)
+[[1;36mDEBUG[m]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.15.3:compile (version managed from 2.15.3)
+[[1;36mDEBUG[m]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.15.3:compile (version managed from 2.15.3)
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-starter-tomcat:jar:3.2.1:compile (version managed from 3.2.1)
+[[1;36mDEBUG[m]          org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.17:compile (version managed from 10.1.17)
+[[1;36mDEBUG[m]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.17:compile (version managed from 10.1.17)
+[[1;36mDEBUG[m]       org.springframework:spring-web:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]          org.springframework:spring-beans:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]          io.micrometer:micrometer-observation:jar:1.12.1:compile (version managed from 1.12.1)
+[[1;36mDEBUG[m]             io.micrometer:micrometer-commons:jar:1.12.1:compile (version managed from 1.12.1)
+[[1;36mDEBUG[m]       org.springframework:spring-webmvc:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]          org.springframework:spring-context:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]          org.springframework:spring-expression:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]    org.springframework.boot:spring-boot-starter-data-jpa:jar:3.2.1:compile
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-starter-aop:jar:3.2.1:compile (version managed from 3.2.1)
+[[1;36mDEBUG[m]          org.aspectj:aspectjweaver:jar:1.9.21:compile (version managed from 1.9.21)
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-starter-jdbc:jar:3.2.1:compile (version managed from 3.2.1)
+[[1;36mDEBUG[m]          com.zaxxer:HikariCP:jar:5.0.1:compile (version managed from 5.0.1)
+[[1;36mDEBUG[m]          org.springframework:spring-jdbc:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]       org.hibernate.orm:hibernate-core:jar:6.4.1.Final:compile (version managed from 6.4.1.Final)
+[[1;36mDEBUG[m]          jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (version managed from 3.1.0)
+[[1;36mDEBUG[m]          jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (version managed from 2.0.1)
+[[1;36mDEBUG[m]          org.jboss.logging:jboss-logging:jar:3.5.3.Final:compile (version managed from 3.5.0.Final)
+[[1;36mDEBUG[m]          org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime
+[[1;36mDEBUG[m]          io.smallrye:jandex:jar:3.1.2:runtime
+[[1;36mDEBUG[m]          com.fasterxml:classmate:jar:1.6.0:compile (version managed from 1.5.1)
+[[1;36mDEBUG[m]          net.bytebuddy:byte-buddy:jar:1.14.10:runtime (version managed from 1.14.7)
+[[1;36mDEBUG[m]          org.glassfish.jaxb:jaxb-runtime:jar:4.0.4:runtime (version managed from 4.0.2)
+[[1;36mDEBUG[m]             org.glassfish.jaxb:jaxb-core:jar:4.0.4:runtime (version managed from 4.0.4)
+[[1;36mDEBUG[m]                org.eclipse.angus:angus-activation:jar:2.0.1:runtime (version managed from 2.0.1)
+[[1;36mDEBUG[m]                org.glassfish.jaxb:txw2:jar:4.0.4:runtime (version managed from 4.0.4)
+[[1;36mDEBUG[m]                com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (version managed from 4.1.2)
+[[1;36mDEBUG[m]          jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime
+[[1;36mDEBUG[m]          org.antlr:antlr4-runtime:jar:4.13.0:compile
+[[1;36mDEBUG[m]       org.springframework.data:spring-data-jpa:jar:3.2.1:compile (version managed from 3.2.1)
+[[1;36mDEBUG[m]          org.springframework.data:spring-data-commons:jar:3.2.1:compile (version managed from 3.2.1)
+[[1;36mDEBUG[m]          org.springframework:spring-orm:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]          org.springframework:spring-tx:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]          org.slf4j:slf4j-api:jar:2.0.9:compile (version managed from 2.0.2)
+[[1;36mDEBUG[m]       org.springframework:spring-aspects:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]    org.springframework.boot:spring-boot-starter-security:jar:3.2.1:compile
+[[1;36mDEBUG[m]       org.springframework:spring-aop:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]       org.springframework.security:spring-security-config:jar:6.2.1:compile (version managed from 6.2.1)
+[[1;36mDEBUG[m]       org.springframework.security:spring-security-web:jar:6.2.1:compile (version managed from 6.2.1)
+[[1;36mDEBUG[m]    org.springframework.boot:spring-boot-starter-validation:jar:3.2.1:compile
+[[1;36mDEBUG[m]       org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.17:compile (version managed from 10.1.17)
+[[1;36mDEBUG[m]       org.hibernate.validator:hibernate-validator:jar:8.0.1.Final:compile (version managed from 8.0.1.Final)
+[[1;36mDEBUG[m]          jakarta.validation:jakarta.validation-api:jar:3.0.2:compile (version managed from 3.0.2)
+[[1;36mDEBUG[m]    org.springframework.boot:spring-boot-starter-amqp:jar:3.2.1:compile
+[[1;36mDEBUG[m]       org.springframework:spring-messaging:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]       org.springframework.amqp:spring-rabbit:jar:3.1.1:compile (version managed from 3.1.1)
+[[1;36mDEBUG[m]          org.springframework.amqp:spring-amqp:jar:3.1.1:compile (version managed from 3.1.1)
+[[1;36mDEBUG[m]             org.springframework.retry:spring-retry:jar:2.0.5:compile (version managed from 2.0.5)
+[[1;36mDEBUG[m]          com.rabbitmq:amqp-client:jar:5.19.0:compile (version managed from 5.19.0)
+[[1;36mDEBUG[m]    com.mysql:mysql-connector-j:jar:8.1.0:runtime (exclusions managed from [com.google.protobuf:protobuf-java:*:*])
+[[1;36mDEBUG[m]    org.springdoc:springdoc-openapi-starter-webmvc-ui:jar:2.3.0:compile
+[[1;36mDEBUG[m]       org.springdoc:springdoc-openapi-starter-webmvc-api:jar:2.3.0:compile
+[[1;36mDEBUG[m]          org.springdoc:springdoc-openapi-starter-common:jar:2.3.0:compile
+[[1;36mDEBUG[m]             io.swagger.core.v3:swagger-core-jakarta:jar:2.2.19:compile
+[[1;36mDEBUG[m]                org.apache.commons:commons-lang3:jar:3.13.0:compile (version managed from 3.13.0)
+[[1;36mDEBUG[m]                io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.19:compile
+[[1;36mDEBUG[m]                io.swagger.core.v3:swagger-models-jakarta:jar:2.2.19:compile
+[[1;36mDEBUG[m]                com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.15.3:compile (version managed from 2.15.2)
+[[1;36mDEBUG[m]       org.webjars:swagger-ui:jar:5.10.3:compile
+[[1;36mDEBUG[m]    io.jsonwebtoken:jjwt-api:jar:0.11.5:compile
+[[1;36mDEBUG[m]    io.jsonwebtoken:jjwt-impl:jar:0.11.5:runtime
+[[1;36mDEBUG[m]    io.jsonwebtoken:jjwt-jackson:jar:0.11.5:runtime
+[[1;36mDEBUG[m]       com.fasterxml.jackson.core:jackson-databind:jar:2.15.3:compile (version managed from 2.12.6.1)
+[[1;36mDEBUG[m]          com.fasterxml.jackson.core:jackson-annotations:jar:2.15.3:compile (version managed from 2.15.3)
+[[1;36mDEBUG[m]          com.fasterxml.jackson.core:jackson-core:jar:2.15.3:compile (version managed from 2.15.3)
+[[1;36mDEBUG[m]    org.projectlombok:lombok:jar:1.18.30:compile (optional)
+[[1;36mDEBUG[m]    org.springframework.boot:spring-boot-starter-test:jar:3.2.1:test
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-test:jar:3.2.1:test (version managed from 3.2.1)
+[[1;36mDEBUG[m]       org.springframework.boot:spring-boot-test-autoconfigure:jar:3.2.1:test (version managed from 3.2.1)
+[[1;36mDEBUG[m]       com.jayway.jsonpath:json-path:jar:2.8.0:test (version managed from 2.8.0)
+[[1;36mDEBUG[m]       jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.1:compile (version managed from 4.0.1)
+[[1;36mDEBUG[m]          jakarta.activation:jakarta.activation-api:jar:2.1.2:compile (version managed from 2.1.2)
+[[1;36mDEBUG[m]       net.minidev:json-smart:jar:2.5.0:test (version managed from 2.5.0)
+[[1;36mDEBUG[m]          net.minidev:accessors-smart:jar:2.5.0:test
+[[1;36mDEBUG[m]             org.ow2.asm:asm:jar:9.3:test
+[[1;36mDEBUG[m]       org.assertj:assertj-core:jar:3.24.2:test (version managed from 3.24.2)
+[[1;36mDEBUG[m]       org.awaitility:awaitility:jar:4.2.0:test (version managed from 4.2.0)
+[[1;36mDEBUG[m]       org.hamcrest:hamcrest:jar:2.2:test (version managed from 2.2)
+[[1;36mDEBUG[m]       org.junit.jupiter:junit-jupiter:jar:5.10.1:test (version managed from 5.10.1)
+[[1;36mDEBUG[m]          org.junit.jupiter:junit-jupiter-api:jar:5.10.1:test (version managed from 5.10.1)
+[[1;36mDEBUG[m]             org.opentest4j:opentest4j:jar:1.3.0:test
+[[1;36mDEBUG[m]             org.junit.platform:junit-platform-commons:jar:1.10.1:test (version managed from 1.10.1)
+[[1;36mDEBUG[m]             org.apiguardian:apiguardian-api:jar:1.1.2:test
+[[1;36mDEBUG[m]          org.junit.jupiter:junit-jupiter-params:jar:5.10.1:test (version managed from 5.10.1)
+[[1;36mDEBUG[m]          org.junit.jupiter:junit-jupiter-engine:jar:5.10.1:test (version managed from 5.10.1)
+[[1;36mDEBUG[m]             org.junit.platform:junit-platform-engine:jar:1.10.1:test (version managed from 1.10.1)
+[[1;36mDEBUG[m]       org.mockito:mockito-core:jar:5.7.0:test (version managed from 5.7.0)
+[[1;36mDEBUG[m]          net.bytebuddy:byte-buddy-agent:jar:1.14.10:test (version managed from 1.14.9)
+[[1;36mDEBUG[m]          org.objenesis:objenesis:jar:3.3:test
+[[1;36mDEBUG[m]       org.mockito:mockito-junit-jupiter:jar:5.7.0:test (version managed from 5.7.0)
+[[1;36mDEBUG[m]       org.skyscreamer:jsonassert:jar:1.5.1:test (version managed from 1.5.1)
+[[1;36mDEBUG[m]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[[1;36mDEBUG[m]       org.springframework:spring-core:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]          org.springframework:spring-jcl:jar:6.1.2:compile (version managed from 6.1.2)
+[[1;36mDEBUG[m]       org.springframework:spring-test:jar:6.1.2:test (version managed from 6.1.2)
+[[1;36mDEBUG[m]       org.xmlunit:xmlunit-core:jar:2.9.1:test (version managed from 2.9.1)
+[[1;36mDEBUG[m]    org.springframework.security:spring-security-test:jar:6.2.1:test
+[[1;36mDEBUG[m]       org.springframework.security:spring-security-core:jar:6.2.1:compile (version managed from 6.2.1)
+[[1;36mDEBUG[m]          org.springframework.security:spring-security-crypto:jar:6.2.1:compile (version managed from 6.2.1)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36msaude-mosaico[0;1m ---[m
+[[1;36mDEBUG[m] Dependency collection stats {ConflictMarker.analyzeTime=137898, ConflictMarker.markTime=68706, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=29053, ConflictIdSorter.topsortTime=16703, ConflictIdSorter.conflictIdCount=9, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=184339, ConflictResolver.conflictItemCount=13, DefaultDependencyCollector.collectTime=34492861, DefaultDependencyCollector.transformTime=497572}
+[[1;36mDEBUG[m] org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-interpolation:jar:1.26:runtime
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-utils:jar:3.5.1:compile
+[[1;36mDEBUG[m]    org.apache.maven.shared:maven-filtering:jar:3.3.1:compile
+[[1;36mDEBUG[m]       javax.inject:javax.inject:jar:1:compile
+[[1;36mDEBUG[m]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[[1;36mDEBUG[m]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[[1;36mDEBUG[m]    commons-io:commons-io:jar:2.11.0:compile
+[[1;36mDEBUG[m]    org.apache.commons:commons-lang3:jar:3.12.0:compile
+[[1;36mDEBUG[m] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:3.5.1
+[[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-filtering:jar:3.3.1
+[[1;36mDEBUG[m]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[[1;36mDEBUG[m]   Included: commons-io:commons-io:jar:2.11.0
+[[1;36mDEBUG[m]   Included: org.apache.commons:commons-lang3:jar:3.12.0
+[[1;36mDEBUG[m] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@639fee48]
+[[1;36mDEBUG[m] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources:default-resources' with basic configurator -->
+[[1;36mDEBUG[m]   (f) addDefaultExcludes = true
+[[1;36mDEBUG[m]   (f) buildFilters = []
+[[1;36mDEBUG[m]   (s) delimiters = [@]
+[[1;36mDEBUG[m]   (f) encoding = UTF-8
+[[1;36mDEBUG[m]   (f) escapeWindowsPaths = true
+[[1;36mDEBUG[m]   (f) fileNameFiltering = false
+[[1;36mDEBUG[m]   (s) includeEmptyDirs = false
+[[1;36mDEBUG[m]   (s) outputDirectory = /home/cr8/projetos/saude-mosaico/target/classes
+[[1;36mDEBUG[m]   (s) overwrite = false
+[[1;36mDEBUG[m]   (f) project = MavenProject: br.com.saudemosaico:saude-mosaico:0.0.1-SNAPSHOT @ /home/cr8/projetos/saude-mosaico/pom.xml
+[[1;36mDEBUG[m]   (f) propertiesEncoding = UTF-8
+[[1;36mDEBUG[m]   (s) resources = [Resource {targetPath: null, filtering: true, FileSet {directory: /home/cr8/projetos/saude-mosaico/src/main/resources, PatternSet [includes: {**/application*.yml, **/application*.yaml, **/application*.properties}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: /home/cr8/projetos/saude-mosaico/src/main/resources, PatternSet [includes: {}, excludes: {**/application*.yml, **/application*.yaml, **/application*.properties}]}}]
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7186333e
+[[1;36mDEBUG[m]   (f) skip = false
+[[1;36mDEBUG[m]   (f) supportMultiLineFiltering = false
+[[1;36mDEBUG[m]   (f) useBuildFilters = true
+[[1;36mDEBUG[m]   (s) useDefaultDelimiters = false
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] properties used:
+[[1;36mDEBUG[m] activemq.version: 5.18.3
+[[1;36mDEBUG[m] angus-mail.version: 2.0.2
+[[1;36mDEBUG[m] artemis.version: 2.31.2
+[[1;36mDEBUG[m] aspectj.version: 1.9.21
+[[1;36mDEBUG[m] assertj.version: 3.24.2
+[[1;36mDEBUG[m] awaitility.version: 4.2.0
+[[1;36mDEBUG[m] awt.useSystemAAFontSettings: on
+[[1;36mDEBUG[m] brave.version: 5.16.0
+[[1;36mDEBUG[m] build-helper-maven-plugin.version: 3.4.0
+[[1;36mDEBUG[m] byte-buddy.version: 1.14.10
+[[1;36mDEBUG[m] cache2k.version: 2.6.1.Final
+[[1;36mDEBUG[m] caffeine.version: 3.1.8
+[[1;36mDEBUG[m] cassandra-driver.version: 4.17.0
+[[1;36mDEBUG[m] classmate.version: 1.6.0
+[[1;36mDEBUG[m] classworlds.conf: /usr/share/maven/bin/m2.conf
+[[1;36mDEBUG[m] commons-codec.version: 1.16.0
+[[1;36mDEBUG[m] commons-dbcp2.version: 2.10.0
+[[1;36mDEBUG[m] commons-lang3.version: 3.13.0
+[[1;36mDEBUG[m] commons-pool.version: 1.6
+[[1;36mDEBUG[m] commons-pool2.version: 2.12.0
+[[1;36mDEBUG[m] couchbase-client.version: 3.4.11
+[[1;36mDEBUG[m] crac.version: 1.4.0
+[[1;36mDEBUG[m] db2-jdbc.version: 11.5.9.0
+[[1;36mDEBUG[m] dependency-management-plugin.version: 1.1.4
+[[1;36mDEBUG[m] derby.version: 10.16.1.1
+[[1;36mDEBUG[m] dropwizard-metrics.version: 4.2.23
+[[1;36mDEBUG[m] ehcache3.version: 3.10.8
+[[1;36mDEBUG[m] elasticsearch-client.version: 8.10.4
+[[1;36mDEBUG[m] env.COLORFGBG: 15;0
+[[1;36mDEBUG[m] env.COLORTERM: truecolor
+[[1;36mDEBUG[m] env.COMMAND_NOT_FOUND_INSTALL_PROMPT: 1
+[[1;36mDEBUG[m] env.DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1000/bus
+[[1;36mDEBUG[m] env.DESKTOP_SESSION: gnome
+[[1;36mDEBUG[m] env.DISPLAY: :1
+[[1;36mDEBUG[m] env.DOTNET_CLI_TELEMETRY_OPTOUT: 1
+[[1;36mDEBUG[m] env.GDMSESSION: gnome
+[[1;36mDEBUG[m] env.GDM_LANG: C.UTF-8
+[[1;36mDEBUG[m] env.GIO_LAUNCHED_DESKTOP_FILE: /usr/share/applications/org.kde.konsole.desktop
+[[1;36mDEBUG[m] env.GIO_LAUNCHED_DESKTOP_FILE_PID: 925840
+[[1;36mDEBUG[m] env.GJS_DEBUG_OUTPUT: stderr
+[[1;36mDEBUG[m] env.GJS_DEBUG_TOPICS: JS ERROR;JS LOG
+[[1;36mDEBUG[m] env.GNOME_DESKTOP_SESSION_ID: this-is-deprecated
+[[1;36mDEBUG[m] env.GPG_AGENT_INFO: /run/user/1000/gnupg/S.gpg-agent:0:1
+[[1;36mDEBUG[m] env.HOME: /home/cr8
+[[1;36mDEBUG[m] env.IM_CONFIG_PHASE: 1
+[[1;36mDEBUG[m] env.INVOCATION_ID: 11d0d9e3e0724bdfafdfe2a333d84171
+[[1;36mDEBUG[m] env.JAVA_HOME: /usr/lib/jvm/java-21-openjdk-amd64
+[[1;36mDEBUG[m] env.JOURNAL_STREAM: 8:12277
+[[1;36mDEBUG[m] env.KONSOLE_DBUS_SERVICE: :1.1734
+[[1;36mDEBUG[m] env.KONSOLE_DBUS_SESSION: /Sessions/1
+[[1;36mDEBUG[m] env.KONSOLE_DBUS_WINDOW: /Windows/1
+[[1;36mDEBUG[m] env.KONSOLE_VERSION: 230801
+[[1;36mDEBUG[m] env.LANG: C.UTF-8
+[[1;36mDEBUG[m] env.LANGUAGE: 
+[[1;36mDEBUG[m] env.LESS: -R
+[[1;36mDEBUG[m] env.LOGNAME: cr8
+[[1;36mDEBUG[m] env.LSCOLORS: Gxfxcxdxbxegedabagacad
+[[1;36mDEBUG[m] env.LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+[[1;36mDEBUG[m] env.M2_HOME: /usr/share/maven
+[[1;36mDEBUG[m] env.MANAGERPID: 2080
+[[1;36mDEBUG[m] env.MAVEN_CMD_LINE_ARGS:  spring-boot:run -X
+[[1;36mDEBUG[m] env.MAVEN_PROJECTBASEDIR: /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m] env.MEMORY_PRESSURE_WATCH: /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure
+[[1;36mDEBUG[m] env.MEMORY_PRESSURE_WRITE: c29tZSAyMDAwMDAgMjAwMDAwMAA=
+[[1;36mDEBUG[m] env.NVM_BIN: /home/cr8/.nvm/versions/node/v20.18.1/bin
+[[1;36mDEBUG[m] env.NVM_CD_FLAGS: -q
+[[1;36mDEBUG[m] env.NVM_DIR: /home/cr8/.nvm
+[[1;36mDEBUG[m] env.NVM_INC: /home/cr8/.nvm/versions/node/v20.18.1/include/node
+[[1;36mDEBUG[m] env.OLDPWD: /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m] env.PAGER: less
+[[1;36mDEBUG[m] env.PATH: /home/cr8/.nvm/versions/node/v20.18.1/bin:/usr/share/maven/bin:/usr/lib/jvm/java-21-openjdk-amd64/bin:/home/cr8/.local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/cr8/.dotnet/tools:/home/cr8/.local/share/JetBrains/Toolbox/scripts
+[[1;36mDEBUG[m] env.POWERSHELL_TELEMETRY_OPTOUT: 1
+[[1;36mDEBUG[m] env.POWERSHELL_UPDATECHECK: Off
+[[1;36mDEBUG[m] env.PROFILEHOME: 
+[[1;36mDEBUG[m] env.PWD: /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m] env.QTWEBENGINE_DICTIONARIES_PATH: /usr/share/hunspell-bdic/
+[[1;36mDEBUG[m] env.QT_ACCESSIBILITY: 1
+[[1;36mDEBUG[m] env.QT_AUTO_SCREEN_SCALE_FACTOR: 0
+[[1;36mDEBUG[m] env.QT_IM_MODULE: ibus
+[[1;36mDEBUG[m] env.QT_QPA_PLATFORMTHEME: qt5ct
+[[1;36mDEBUG[m] env.SESSION_MANAGER: local/kali:@/tmp/.ICE-unix/2307,unix/kali:/tmp/.ICE-unix/2307
+[[1;36mDEBUG[m] env.SHELL: /usr/bin/zsh
+[[1;36mDEBUG[m] env.SHELL_SESSION_ID: 56e9c643ac08440c8e02da9bbd1e6b1a
+[[1;36mDEBUG[m] env.SHLVL: 1
+[[1;36mDEBUG[m] env.SSH_AUTH_SOCK: /run/user/1000/keyring/ssh
+[[1;36mDEBUG[m] env.SYSTEMD_EXEC_PID: 2341
+[[1;36mDEBUG[m] env.TERM: xterm-256color
+[[1;36mDEBUG[m] env.USER: cr8
+[[1;36mDEBUG[m] env.USERNAME: cr8
+[[1;36mDEBUG[m] env.WINDOWID: 41943047
+[[1;36mDEBUG[m] env.WINDOWPATH: 2
+[[1;36mDEBUG[m] env.XAUTHORITY: /run/user/1000/gdm/Xauthority
+[[1;36mDEBUG[m] env.XDG_ACTIVATION_TOKEN: gnome-shell/Konsole/2341-28-kali_TIME113907637
+[[1;36mDEBUG[m] env.XDG_CURRENT_DESKTOP: GNOME
+[[1;36mDEBUG[m] env.XDG_DATA_DIRS: /usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+[[1;36mDEBUG[m] env.XDG_MENU_PREFIX: gnome-
+[[1;36mDEBUG[m] env.XDG_RUNTIME_DIR: /run/user/1000
+[[1;36mDEBUG[m] env.XDG_SESSION_CLASS: user
+[[1;36mDEBUG[m] env.XDG_SESSION_DESKTOP: gnome
+[[1;36mDEBUG[m] env.XDG_SESSION_TYPE: x11
+[[1;36mDEBUG[m] env.XMODIFIERS: @im=ibus
+[[1;36mDEBUG[m] env.ZSH: /home/cr8/.oh-my-zsh
+[[1;36mDEBUG[m] env._: /usr/share/maven/bin/mvn
+[[1;36mDEBUG[m] env._JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+[[1;36mDEBUG[m] file.encoding: UTF-8
+[[1;36mDEBUG[m] file.separator: /
+[[1;36mDEBUG[m] flyway.version: 9.22.3
+[[1;36mDEBUG[m] freemarker.version: 2.3.32
+[[1;36mDEBUG[m] git-commit-id-maven-plugin.version: 6.0.0
+[[1;36mDEBUG[m] glassfish-jaxb.version: 4.0.4
+[[1;36mDEBUG[m] glassfish-jstl.version: 3.0.1
+[[1;36mDEBUG[m] graphql-java.version: 21.3
+[[1;36mDEBUG[m] groovy.version: 4.0.16
+[[1;36mDEBUG[m] gson.version: 2.10.1
+[[1;36mDEBUG[m] h2.version: 2.2.224
+[[1;36mDEBUG[m] hamcrest.version: 2.2
+[[1;36mDEBUG[m] hazelcast.version: 5.3.6
+[[1;36mDEBUG[m] hibernate-validator.version: 8.0.1.Final
+[[1;36mDEBUG[m] hibernate.version: 6.4.1.Final
+[[1;36mDEBUG[m] hikaricp.version: 5.0.1
+[[1;36mDEBUG[m] hsqldb.version: 2.7.2
+[[1;36mDEBUG[m] htmlunit.version: 2.70.0
+[[1;36mDEBUG[m] httpasyncclient.version: 4.1.5
+[[1;36mDEBUG[m] httpclient5.version: 5.2.3
+[[1;36mDEBUG[m] httpcore.version: 4.4.16
+[[1;36mDEBUG[m] httpcore5.version: 5.2.4
+[[1;36mDEBUG[m] infinispan.version: 14.0.21.Final
+[[1;36mDEBUG[m] influxdb-java.version: 2.23
+[[1;36mDEBUG[m] jackson-bom.version: 2.15.3
+[[1;36mDEBUG[m] jakarta-activation.version: 2.1.2
+[[1;36mDEBUG[m] jakarta-annotation.version: 2.1.1
+[[1;36mDEBUG[m] jakarta-jms.version: 3.1.0
+[[1;36mDEBUG[m] jakarta-json-bind.version: 3.0.0
+[[1;36mDEBUG[m] jakarta-json.version: 2.1.3
+[[1;36mDEBUG[m] jakarta-mail.version: 2.1.2
+[[1;36mDEBUG[m] jakarta-management.version: 1.1.4
+[[1;36mDEBUG[m] jakarta-persistence.version: 3.1.0
+[[1;36mDEBUG[m] jakarta-servlet-jsp-jstl.version: 3.0.0
+[[1;36mDEBUG[m] jakarta-servlet.version: 6.0.0
+[[1;36mDEBUG[m] jakarta-transaction.version: 2.0.1
+[[1;36mDEBUG[m] jakarta-validation.version: 3.0.2
+[[1;36mDEBUG[m] jakarta-websocket.version: 2.1.1
+[[1;36mDEBUG[m] jakarta-ws-rs.version: 3.1.0
+[[1;36mDEBUG[m] jakarta-xml-bind.version: 4.0.1
+[[1;36mDEBUG[m] jakarta-xml-soap.version: 3.0.1
+[[1;36mDEBUG[m] jakarta-xml-ws.version: 4.0.1
+[[1;36mDEBUG[m] janino.version: 3.1.11
+[[1;36mDEBUG[m] jansi.mode: force
+[[1;36mDEBUG[m] java.class.path: /usr/share/maven/boot/plexus-classworlds-2.x.jar
+[[1;36mDEBUG[m] java.class.version: 65.0
+[[1;36mDEBUG[m] java.home: /usr/lib/jvm/java-21-openjdk-amd64
+[[1;36mDEBUG[m] java.io.tmpdir: /tmp
+[[1;36mDEBUG[m] java.library.path: /usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[[1;36mDEBUG[m] java.runtime.name: OpenJDK Runtime Environment
+[[1;36mDEBUG[m] java.runtime.version: 21.0.5+11-Debian-1
+[[1;36mDEBUG[m] java.specification.name: Java Platform API Specification
+[[1;36mDEBUG[m] java.specification.vendor: Oracle Corporation
+[[1;36mDEBUG[m] java.specification.version: 21
+[[1;36mDEBUG[m] java.vendor: Debian
+[[1;36mDEBUG[m] java.vendor.url: https://tracker.debian.org/openjdk-21
+[[1;36mDEBUG[m] java.vendor.url.bug: https://bugs.debian.org/openjdk-21
+[[1;36mDEBUG[m] java.version: 21.0.5
+[[1;36mDEBUG[m] java.version.date: 2024-10-15
+[[1;36mDEBUG[m] java.vm.compressedOopsMode: Zero based
+[[1;36mDEBUG[m] java.vm.info: mixed mode, sharing
+[[1;36mDEBUG[m] java.vm.name: OpenJDK 64-Bit Server VM
+[[1;36mDEBUG[m] java.vm.specification.name: Java Virtual Machine Specification
+[[1;36mDEBUG[m] java.vm.specification.vendor: Oracle Corporation
+[[1;36mDEBUG[m] java.vm.specification.version: 21
+[[1;36mDEBUG[m] java.vm.vendor: Debian
+[[1;36mDEBUG[m] java.vm.version: 21.0.5+11-Debian-1
+[[1;36mDEBUG[m] javax-cache.version: 1.1.1
+[[1;36mDEBUG[m] javax-money.version: 1.1
+[[1;36mDEBUG[m] jaxen.version: 2.0.0
+[[1;36mDEBUG[m] jaybird.version: 5.0.3.java11
+[[1;36mDEBUG[m] jboss-logging.version: 3.5.3.Final
+[[1;36mDEBUG[m] jdk.debug: release
+[[1;36mDEBUG[m] jdom2.version: 2.0.6.1
+[[1;36mDEBUG[m] jedis.version: 5.0.2
+[[1;36mDEBUG[m] jersey.version: 3.1.5
+[[1;36mDEBUG[m] jetty-reactive-httpclient.version: 4.0.1
+[[1;36mDEBUG[m] jetty.version: 12.0.5
+[[1;36mDEBUG[m] jmustache.version: 1.15
+[[1;36mDEBUG[m] jooq.version: 3.18.7
+[[1;36mDEBUG[m] json-path.version: 2.8.0
+[[1;36mDEBUG[m] json-smart.version: 2.5.0
+[[1;36mDEBUG[m] jsonassert.version: 1.5.1
+[[1;36mDEBUG[m] jtds.version: 1.3.1
+[[1;36mDEBUG[m] junit-jupiter.version: 5.10.1
+[[1;36mDEBUG[m] junit.version: 4.13.2
+[[1;36mDEBUG[m] kafka.version: 3.6.1
+[[1;36mDEBUG[m] kotlin-coroutines.version: 1.7.3
+[[1;36mDEBUG[m] kotlin-serialization.version: 1.6.2
+[[1;36mDEBUG[m] kotlin.version: 1.9.21
+[[1;36mDEBUG[m] lettuce.version: 6.3.0.RELEASE
+[[1;36mDEBUG[m] library.jansi.path: /usr/share/maven/lib/jansi-native
+[[1;36mDEBUG[m] line.separator: 
+
+[[1;36mDEBUG[m] liquibase.version: 4.24.0
+[[1;36mDEBUG[m] log4j2.version: 2.21.1
+[[1;36mDEBUG[m] logback.version: 1.4.14
+[[1;36mDEBUG[m] lombok.version: 1.18.30
+[[1;36mDEBUG[m] mariadb.version: 3.2.0
+[[1;36mDEBUG[m] maven-antrun-plugin.version: 3.1.0
+[[1;36mDEBUG[m] maven-assembly-plugin.version: 3.6.0
+[[1;36mDEBUG[m] maven-clean-plugin.version: 3.3.2
+[[1;36mDEBUG[m] maven-compiler-plugin.version: 3.11.0
+[[1;36mDEBUG[m] maven-dependency-plugin.version: 3.6.1
+[[1;36mDEBUG[m] maven-deploy-plugin.version: 3.1.1
+[[1;36mDEBUG[m] maven-enforcer-plugin.version: 3.4.1
+[[1;36mDEBUG[m] maven-failsafe-plugin.version: 3.1.2
+[[1;36mDEBUG[m] maven-help-plugin.version: 3.4.0
+[[1;36mDEBUG[m] maven-install-plugin.version: 3.1.1
+[[1;36mDEBUG[m] maven-invoker-plugin.version: 3.6.0
+[[1;36mDEBUG[m] maven-jar-plugin.version: 3.3.0
+[[1;36mDEBUG[m] maven-javadoc-plugin.version: 3.6.3
+[[1;36mDEBUG[m] maven-resources-plugin.version: 3.3.1
+[[1;36mDEBUG[m] maven-shade-plugin.version: 3.5.1
+[[1;36mDEBUG[m] maven-source-plugin.version: 3.3.0
+[[1;36mDEBUG[m] maven-surefire-plugin.version: 3.1.2
+[[1;36mDEBUG[m] maven-war-plugin.version: 3.4.0
+[[1;36mDEBUG[m] maven.build.timestamp: 2025-01-13T13:01:09Z
+[[1;36mDEBUG[m] maven.build.version: Apache Maven 3.8.8
+[[1;36mDEBUG[m] maven.compiler.release: 21
+[[1;36mDEBUG[m] maven.conf: /usr/share/maven/conf
+[[1;36mDEBUG[m] maven.home: /usr/share/maven
+[[1;36mDEBUG[m] maven.multiModuleProjectDirectory: /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m] maven.version: 3.8.8
+[[1;36mDEBUG[m] micrometer-tracing.version: 1.2.1
+[[1;36mDEBUG[m] micrometer.version: 1.12.1
+[[1;36mDEBUG[m] mockito.version: 5.7.0
+[[1;36mDEBUG[m] mongodb.version: 4.11.1
+[[1;36mDEBUG[m] mssql-jdbc.version: 12.4.2.jre11
+[[1;36mDEBUG[m] mysql.version: 8.1.0
+[[1;36mDEBUG[m] native-build-tools-plugin.version: 0.9.28
+[[1;36mDEBUG[m] native.encoding: UTF-8
+[[1;36mDEBUG[m] nekohtml.version: 1.9.22
+[[1;36mDEBUG[m] neo4j-java-driver.version: 5.13.0
+[[1;36mDEBUG[m] netty.version: 4.1.104.Final
+[[1;36mDEBUG[m] okhttp.version: 4.12.0
+[[1;36mDEBUG[m] opentelemetry.version: 1.31.0
+[[1;36mDEBUG[m] oracle-database.version: 23.3.0.23.09
+[[1;36mDEBUG[m] oracle-r2dbc.version: 1.1.1
+[[1;36mDEBUG[m] os.arch: amd64
+[[1;36mDEBUG[m] os.name: Linux
+[[1;36mDEBUG[m] os.version: 6.8.11-amd64
+[[1;36mDEBUG[m] path.separator: :
+[[1;36mDEBUG[m] pooled-jms.version: 3.1.5
+[[1;36mDEBUG[m] postgresql.version: 42.6.0
+[[1;36mDEBUG[m] project.baseUri: file:/home/cr8/projetos/saude-mosaico/
+[[1;36mDEBUG[m] project.build.sourceEncoding: UTF-8
+[[1;36mDEBUG[m] project.reporting.outputEncoding: UTF-8
+[[1;36mDEBUG[m] prometheus-client.version: 0.16.0
+[[1;36mDEBUG[m] pulsar-reactive.version: 0.5.1
+[[1;36mDEBUG[m] pulsar.version: 3.1.1
+[[1;36mDEBUG[m] quartz.version: 2.3.2
+[[1;36mDEBUG[m] querydsl.version: 5.0.0
+[[1;36mDEBUG[m] r2dbc-h2.version: 1.0.0.RELEASE
+[[1;36mDEBUG[m] r2dbc-mariadb.version: 1.1.4
+[[1;36mDEBUG[m] r2dbc-mssql.version: 1.0.2.RELEASE
+[[1;36mDEBUG[m] r2dbc-mysql.version: 1.0.5
+[[1;36mDEBUG[m] r2dbc-pool.version: 1.0.1.RELEASE
+[[1;36mDEBUG[m] r2dbc-postgresql.version: 1.0.3.RELEASE
+[[1;36mDEBUG[m] r2dbc-proxy.version: 1.1.3.RELEASE
+[[1;36mDEBUG[m] r2dbc-spi.version: 1.0.0.RELEASE
+[[1;36mDEBUG[m] rabbit-amqp-client.version: 5.19.0
+[[1;36mDEBUG[m] rabbit-stream-client.version: 0.14.0
+[[1;36mDEBUG[m] reactive-streams.version: 1.0.4
+[[1;36mDEBUG[m] reactor-bom.version: 2023.0.1
+[[1;36mDEBUG[m] resource.delimiter: @
+[[1;36mDEBUG[m] rest-assured.version: 5.3.2
+[[1;36mDEBUG[m] rsocket.version: 1.1.3
+[[1;36mDEBUG[m] rxjava3.version: 3.1.8
+[[1;36mDEBUG[m] saaj-impl.version: 3.0.3
+[[1;36mDEBUG[m] selenium-htmlunit.version: 4.13.0
+[[1;36mDEBUG[m] selenium.version: 4.14.1
+[[1;36mDEBUG[m] sendgrid.version: 4.9.3
+[[1;36mDEBUG[m] slf4j.version: 2.0.9
+[[1;36mDEBUG[m] snakeyaml.version: 2.2
+[[1;36mDEBUG[m] spring-amqp.version: 3.1.1
+[[1;36mDEBUG[m] spring-authorization-server.version: 1.2.1
+[[1;36mDEBUG[m] spring-batch.version: 5.1.0
+[[1;36mDEBUG[m] spring-data-bom.version: 2023.1.1
+[[1;36mDEBUG[m] spring-framework.version: 6.1.2
+[[1;36mDEBUG[m] spring-graphql.version: 1.2.4
+[[1;36mDEBUG[m] spring-hateoas.version: 2.2.0
+[[1;36mDEBUG[m] spring-integration.version: 6.2.1
+[[1;36mDEBUG[m] spring-kafka.version: 3.1.1
+[[1;36mDEBUG[m] spring-ldap.version: 3.2.1
+[[1;36mDEBUG[m] spring-pulsar.version: 1.0.1
+[[1;36mDEBUG[m] spring-restdocs.version: 3.0.1
+[[1;36mDEBUG[m] spring-retry.version: 2.0.5
+[[1;36mDEBUG[m] spring-security.version: 6.2.1
+[[1;36mDEBUG[m] spring-session.version: 3.2.1
+[[1;36mDEBUG[m] spring-ws.version: 4.0.9
+[[1;36mDEBUG[m] springdoc.version: 2.3.0
+[[1;36mDEBUG[m] sqlite-jdbc.version: 3.43.2.0
+[[1;36mDEBUG[m] stderr.encoding: UTF-8
+[[1;36mDEBUG[m] stdout.encoding: UTF-8
+[[1;36mDEBUG[m] sun.arch.data.model: 64
+[[1;36mDEBUG[m] sun.boot.library.path: /usr/lib/jvm/java-21-openjdk-amd64/lib
+[[1;36mDEBUG[m] sun.cpu.endian: little
+[[1;36mDEBUG[m] sun.io.unicode.encoding: UnicodeLittle
+[[1;36mDEBUG[m] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher spring-boot:run -X
+[[1;36mDEBUG[m] sun.java.launcher: SUN_STANDARD
+[[1;36mDEBUG[m] sun.jnu.encoding: UTF-8
+[[1;36mDEBUG[m] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[[1;36mDEBUG[m] swing.aatext: true
+[[1;36mDEBUG[m] testcontainers.version: 1.19.3
+[[1;36mDEBUG[m] thymeleaf-extras-data-attribute.version: 2.0.1
+[[1;36mDEBUG[m] thymeleaf-extras-springsecurity.version: 3.1.2.RELEASE
+[[1;36mDEBUG[m] thymeleaf-layout-dialect.version: 3.3.0
+[[1;36mDEBUG[m] thymeleaf.version: 3.1.2.RELEASE
+[[1;36mDEBUG[m] tomcat.version: 10.1.17
+[[1;36mDEBUG[m] unboundid-ldapsdk.version: 6.0.11
+[[1;36mDEBUG[m] undertow.version: 2.3.10.Final
+[[1;36mDEBUG[m] user.dir: /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m] user.home: /home/cr8
+[[1;36mDEBUG[m] user.language: en
+[[1;36mDEBUG[m] user.name: cr8
+[[1;36mDEBUG[m] versions-maven-plugin.version: 2.16.2
+[[1;36mDEBUG[m] webjars-locator-core.version: 0.55
+[[1;36mDEBUG[m] wsdl4j.version: 1.6.3
+[[1;36mDEBUG[m] xml-maven-plugin.version: 1.1.0
+[[1;36mDEBUG[m] xmlunit2.version: 2.9.1
+[[1;36mDEBUG[m] yasson.version: 3.0.3
+[[1;36mDEBUG[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;36mDEBUG[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;36mDEBUG[m] resource with targetPath null
+directory /home/cr8/projetos/saude-mosaico/src/main/resources
+excludes []
+includes [**/application*.yml, **/application*.yaml, **/application*.properties]
+[[1;36mDEBUG[m] ignoreDelta true
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;36mDEBUG[m] Copying file application.properties
+[[1;36mDEBUG[m] file application.properties has a filtered file extension
+[[1;36mDEBUG[m] Using 'UTF-8' encoding to copy filtered resource 'application.properties'.
+[[1;36mDEBUG[m] filtering /home/cr8/projetos/saude-mosaico/src/main/resources/application.properties to /home/cr8/projetos/saude-mosaico/target/classes/application.properties
+[[1;36mDEBUG[m] resource with targetPath null
+directory /home/cr8/projetos/saude-mosaico/src/main/resources
+excludes [**/application*.yml, **/application*.yaml, **/application*.properties]
+includes []
+[[1;36mDEBUG[m] ignoreDelta true
+[[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+[[1;36mDEBUG[m] no user filter components
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36msaude-mosaico[0;1m ---[m
+[[1;36mDEBUG[m] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[[1;36mDEBUG[m] Dependency collection stats {ConflictMarker.analyzeTime=133626, ConflictMarker.markTime=26353, ConflictMarker.nodeCount=17, ConflictIdSorter.graphTime=95130, ConflictIdSorter.topsortTime=19017, ConflictIdSorter.conflictIdCount=12, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=282742, ConflictResolver.conflictItemCount=17, DefaultDependencyCollector.collectTime=45496330, DefaultDependencyCollector.transformTime=582840}
+[[1;36mDEBUG[m] org.apache.maven.plugins:maven-compiler-plugin:jar:3.11.0
+[[1;36mDEBUG[m]    org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile
+[[1;36mDEBUG[m]       commons-io:commons-io:jar:2.6:compile
+[[1;36mDEBUG[m]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-java:jar:1.1.2:compile
+[[1;36mDEBUG[m]       org.ow2.asm:asm:jar:9.4:compile
+[[1;36mDEBUG[m]       com.thoughtworks.qdox:qdox:jar:2.0.3:compile (version managed from default)
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-compiler-api:jar:2.13.0:compile
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-utils:jar:3.5.0:compile (version managed from default)
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-compiler-manager:jar:2.13.0:compile
+[[1;36mDEBUG[m]    org.codehaus.plexus:plexus-compiler-javac:jar:2.13.0:runtime
+[[1;36mDEBUG[m] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.11.0
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.11.0
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.11.0
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.11.0
+[[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+[[1;36mDEBUG[m]   Included: commons-io:commons-io:jar:2.6
+[[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-java:jar:1.1.2
+[[1;36mDEBUG[m]   Included: org.ow2.asm:asm:jar:9.4
+[[1;36mDEBUG[m]   Included: com.thoughtworks.qdox:qdox:jar:2.0.3
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.13.0
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:3.5.0
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.13.0
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.13.0
+[[1;36mDEBUG[m] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.11.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@639fee48]
+[[1;36mDEBUG[m] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile:default-compile' with basic configurator -->
+[[1;36mDEBUG[m]   (f) basedir = /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m]   (f) buildDirectory = /home/cr8/projetos/saude-mosaico/target
+[[1;36mDEBUG[m]   (f) compilePath = [/home/cr8/projetos/saude-mosaico/target/classes, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.2.1/spring-boot-starter-web-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.1/spring-boot-starter-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot/3.2.1/spring-boot-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.1/spring-boot-autoconfigure-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.1/spring-boot-starter-logging-3.2.1.jar, /home/cr8/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar, /home/cr8/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar, /home/cr8/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar, /home/cr8/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar, /home/cr8/.m2/repository/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar, /home/cr8/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar, /home/cr8/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.2.1/spring-boot-starter-json-3.2.1.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.2.1/spring-boot-starter-tomcat-3.2.1.jar, /home/cr8/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.17/tomcat-embed-core-10.1.17.jar, /home/cr8/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.17/tomcat-embed-websocket-10.1.17.jar, /home/cr8/.m2/repository/org/springframework/spring-web/6.1.2/spring-web-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-beans/6.1.2/spring-beans-6.1.2.jar, /home/cr8/.m2/repository/io/micrometer/micrometer-observation/1.12.1/micrometer-observation-1.12.1.jar, /home/cr8/.m2/repository/io/micrometer/micrometer-commons/1.12.1/micrometer-commons-1.12.1.jar, /home/cr8/.m2/repository/org/springframework/spring-webmvc/6.1.2/spring-webmvc-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-context/6.1.2/spring-context-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-expression/6.1.2/spring-expression-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.2.1/spring-boot-starter-data-jpa-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.2.1/spring-boot-starter-aop-3.2.1.jar, /home/cr8/.m2/repository/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.2.1/spring-boot-starter-jdbc-3.2.1.jar, /home/cr8/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar, /home/cr8/.m2/repository/org/springframework/spring-jdbc/6.1.2/spring-jdbc-6.1.2.jar, /home/cr8/.m2/repository/org/hibernate/orm/hibernate-core/6.4.1.Final/hibernate-core-6.4.1.Final.jar, /home/cr8/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar, /home/cr8/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar, /home/cr8/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar, /home/cr8/.m2/repository/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar, /home/cr8/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar, /home/cr8/.m2/repository/org/springframework/data/spring-data-jpa/3.2.1/spring-data-jpa-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/data/spring-data-commons/3.2.1/spring-data-commons-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/spring-orm/6.1.2/spring-orm-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-tx/6.1.2/spring-tx-6.1.2.jar, /home/cr8/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar, /home/cr8/.m2/repository/org/springframework/spring-aspects/6.1.2/spring-aspects-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-security/3.2.1/spring-boot-starter-security-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/spring-aop/6.1.2/spring-aop-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/security/spring-security-config/6.2.1/spring-security-config-6.2.1.jar, /home/cr8/.m2/repository/org/springframework/security/spring-security-web/6.2.1/spring-security-web-6.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.2.1/spring-boot-starter-validation-3.2.1.jar, /home/cr8/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.17/tomcat-embed-el-10.1.17.jar, /home/cr8/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar, /home/cr8/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/3.2.1/spring-boot-starter-amqp-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/spring-messaging/6.1.2/spring-messaging-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/amqp/spring-rabbit/3.1.1/spring-rabbit-3.1.1.jar, /home/cr8/.m2/repository/org/springframework/amqp/spring-amqp/3.1.1/spring-amqp-3.1.1.jar, /home/cr8/.m2/repository/org/springframework/retry/spring-retry/2.0.5/spring-retry-2.0.5.jar, /home/cr8/.m2/repository/com/rabbitmq/amqp-client/5.19.0/amqp-client-5.19.0.jar, /home/cr8/.m2/repository/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.3.0/springdoc-openapi-starter-webmvc-ui-2.3.0.jar, /home/cr8/.m2/repository/org/springdoc/springdoc-openapi-starter-webmvc-api/2.3.0/springdoc-openapi-starter-webmvc-api-2.3.0.jar, /home/cr8/.m2/repository/org/springdoc/springdoc-openapi-starter-common/2.3.0/springdoc-openapi-starter-common-2.3.0.jar, /home/cr8/.m2/repository/io/swagger/core/v3/swagger-core-jakarta/2.2.19/swagger-core-jakarta-2.2.19.jar, /home/cr8/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar, /home/cr8/.m2/repository/io/swagger/core/v3/swagger-annotations-jakarta/2.2.19/swagger-annotations-jakarta-2.2.19.jar, /home/cr8/.m2/repository/io/swagger/core/v3/swagger-models-jakarta/2.2.19/swagger-models-jakarta-2.2.19.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.3/jackson-dataformat-yaml-2.15.3.jar, /home/cr8/.m2/repository/org/webjars/swagger-ui/5.10.3/swagger-ui-5.10.3.jar, /home/cr8/.m2/repository/io/jsonwebtoken/jjwt-api/0.11.5/jjwt-api-0.11.5.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar, /home/cr8/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar, /home/cr8/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar, /home/cr8/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-core/6.1.2/spring-core-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-jcl/6.1.2/spring-jcl-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/security/spring-security-core/6.2.1/spring-security-core-6.2.1.jar, /home/cr8/.m2/repository/org/springframework/security/spring-security-crypto/6.2.1/spring-security-crypto-6.2.1.jar]
+[[1;36mDEBUG[m]   (f) compileSourceRoots = [/home/cr8/projetos/saude-mosaico/src/main/java]
+[[1;36mDEBUG[m]   (f) compilerId = javac
+[[1;36mDEBUG[m]   (f) createMissingPackageInfoClass = true
+[[1;36mDEBUG[m]   (f) debug = true
+[[1;36mDEBUG[m]   (f) debugFileName = javac
+[[1;36mDEBUG[m]   (f) enablePreview = false
+[[1;36mDEBUG[m]   (f) encoding = UTF-8
+[[1;36mDEBUG[m]   (f) failOnError = true
+[[1;36mDEBUG[m]   (f) failOnWarning = false
+[[1;36mDEBUG[m]   (f) forceJavacCompilerUse = false
+[[1;36mDEBUG[m]   (f) fork = false
+[[1;36mDEBUG[m]   (f) generatedSourcesDirectory = /home/cr8/projetos/saude-mosaico/target/generated-sources/annotations
+[[1;36mDEBUG[m]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile {execution: default-compile}
+[[1;36mDEBUG[m]   (f) optimize = false
+[[1;36mDEBUG[m]   (f) outputDirectory = /home/cr8/projetos/saude-mosaico/target/classes
+[[1;36mDEBUG[m]   (f) parameters = true
+[[1;36mDEBUG[m]   (f) project = MavenProject: br.com.saudemosaico:saude-mosaico:0.0.1-SNAPSHOT @ /home/cr8/projetos/saude-mosaico/pom.xml
+[[1;36mDEBUG[m]   (f) projectArtifact = br.com.saudemosaico:saude-mosaico:jar:0.0.1-SNAPSHOT
+[[1;36mDEBUG[m]   (s) release = 21
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7186333e
+[[1;36mDEBUG[m]   (f) showCompilationChanges = false
+[[1;36mDEBUG[m]   (f) showDeprecation = false
+[[1;36mDEBUG[m]   (f) showWarnings = true
+[[1;36mDEBUG[m]   (f) skipMultiThreadWarning = false
+[[1;36mDEBUG[m]   (f) source = 1.8
+[[1;36mDEBUG[m]   (f) staleMillis = 0
+[[1;36mDEBUG[m]   (s) target = 1.8
+[[1;36mDEBUG[m]   (f) useIncrementalCompilation = true
+[[1;36mDEBUG[m]   (f) verbose = false
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] Using compiler 'javac'.
+[[1;36mDEBUG[m] Adding /home/cr8/projetos/saude-mosaico/target/generated-sources/annotations to compile source roots:
+  /home/cr8/projetos/saude-mosaico/src/main/java
+[[1;36mDEBUG[m] New compile source roots:
+  /home/cr8/projetos/saude-mosaico/src/main/java
+  /home/cr8/projetos/saude-mosaico/target/generated-sources/annotations
+[[1;36mDEBUG[m] CompilerReuseStrategy: reuseCreated
+[[1;36mDEBUG[m] useIncrementalCompilation enabled
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36msaude-mosaico[0;1m ---[m
+[[1;36mDEBUG[m] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@639fee48]
+[[1;36mDEBUG[m] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources:default-testResources' with basic configurator -->
+[[1;36mDEBUG[m]   (f) addDefaultExcludes = true
+[[1;36mDEBUG[m]   (f) buildFilters = []
+[[1;36mDEBUG[m]   (s) delimiters = [@]
+[[1;36mDEBUG[m]   (f) encoding = UTF-8
+[[1;36mDEBUG[m]   (f) escapeWindowsPaths = true
+[[1;36mDEBUG[m]   (f) fileNameFiltering = false
+[[1;36mDEBUG[m]   (s) includeEmptyDirs = false
+[[1;36mDEBUG[m]   (s) outputDirectory = /home/cr8/projetos/saude-mosaico/target/test-classes
+[[1;36mDEBUG[m]   (s) overwrite = false
+[[1;36mDEBUG[m]   (f) project = MavenProject: br.com.saudemosaico:saude-mosaico:0.0.1-SNAPSHOT @ /home/cr8/projetos/saude-mosaico/pom.xml
+[[1;36mDEBUG[m]   (f) propertiesEncoding = UTF-8
+[[1;36mDEBUG[m]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/cr8/projetos/saude-mosaico/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7186333e
+[[1;36mDEBUG[m]   (f) skip = false
+[[1;36mDEBUG[m]   (f) supportMultiLineFiltering = false
+[[1;36mDEBUG[m]   (f) useBuildFilters = true
+[[1;36mDEBUG[m]   (s) useDefaultDelimiters = false
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] properties used:
+[[1;36mDEBUG[m] activemq.version: 5.18.3
+[[1;36mDEBUG[m] angus-mail.version: 2.0.2
+[[1;36mDEBUG[m] artemis.version: 2.31.2
+[[1;36mDEBUG[m] aspectj.version: 1.9.21
+[[1;36mDEBUG[m] assertj.version: 3.24.2
+[[1;36mDEBUG[m] awaitility.version: 4.2.0
+[[1;36mDEBUG[m] awt.useSystemAAFontSettings: on
+[[1;36mDEBUG[m] brave.version: 5.16.0
+[[1;36mDEBUG[m] build-helper-maven-plugin.version: 3.4.0
+[[1;36mDEBUG[m] byte-buddy.version: 1.14.10
+[[1;36mDEBUG[m] cache2k.version: 2.6.1.Final
+[[1;36mDEBUG[m] caffeine.version: 3.1.8
+[[1;36mDEBUG[m] cassandra-driver.version: 4.17.0
+[[1;36mDEBUG[m] classmate.version: 1.6.0
+[[1;36mDEBUG[m] classworlds.conf: /usr/share/maven/bin/m2.conf
+[[1;36mDEBUG[m] commons-codec.version: 1.16.0
+[[1;36mDEBUG[m] commons-dbcp2.version: 2.10.0
+[[1;36mDEBUG[m] commons-lang3.version: 3.13.0
+[[1;36mDEBUG[m] commons-pool.version: 1.6
+[[1;36mDEBUG[m] commons-pool2.version: 2.12.0
+[[1;36mDEBUG[m] couchbase-client.version: 3.4.11
+[[1;36mDEBUG[m] crac.version: 1.4.0
+[[1;36mDEBUG[m] db2-jdbc.version: 11.5.9.0
+[[1;36mDEBUG[m] dependency-management-plugin.version: 1.1.4
+[[1;36mDEBUG[m] derby.version: 10.16.1.1
+[[1;36mDEBUG[m] dropwizard-metrics.version: 4.2.23
+[[1;36mDEBUG[m] ehcache3.version: 3.10.8
+[[1;36mDEBUG[m] elasticsearch-client.version: 8.10.4
+[[1;36mDEBUG[m] env.COLORFGBG: 15;0
+[[1;36mDEBUG[m] env.COLORTERM: truecolor
+[[1;36mDEBUG[m] env.COMMAND_NOT_FOUND_INSTALL_PROMPT: 1
+[[1;36mDEBUG[m] env.DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1000/bus
+[[1;36mDEBUG[m] env.DESKTOP_SESSION: gnome
+[[1;36mDEBUG[m] env.DISPLAY: :1
+[[1;36mDEBUG[m] env.DOTNET_CLI_TELEMETRY_OPTOUT: 1
+[[1;36mDEBUG[m] env.GDMSESSION: gnome
+[[1;36mDEBUG[m] env.GDM_LANG: C.UTF-8
+[[1;36mDEBUG[m] env.GIO_LAUNCHED_DESKTOP_FILE: /usr/share/applications/org.kde.konsole.desktop
+[[1;36mDEBUG[m] env.GIO_LAUNCHED_DESKTOP_FILE_PID: 925840
+[[1;36mDEBUG[m] env.GJS_DEBUG_OUTPUT: stderr
+[[1;36mDEBUG[m] env.GJS_DEBUG_TOPICS: JS ERROR;JS LOG
+[[1;36mDEBUG[m] env.GNOME_DESKTOP_SESSION_ID: this-is-deprecated
+[[1;36mDEBUG[m] env.GPG_AGENT_INFO: /run/user/1000/gnupg/S.gpg-agent:0:1
+[[1;36mDEBUG[m] env.HOME: /home/cr8
+[[1;36mDEBUG[m] env.IM_CONFIG_PHASE: 1
+[[1;36mDEBUG[m] env.INVOCATION_ID: 11d0d9e3e0724bdfafdfe2a333d84171
+[[1;36mDEBUG[m] env.JAVA_HOME: /usr/lib/jvm/java-21-openjdk-amd64
+[[1;36mDEBUG[m] env.JOURNAL_STREAM: 8:12277
+[[1;36mDEBUG[m] env.KONSOLE_DBUS_SERVICE: :1.1734
+[[1;36mDEBUG[m] env.KONSOLE_DBUS_SESSION: /Sessions/1
+[[1;36mDEBUG[m] env.KONSOLE_DBUS_WINDOW: /Windows/1
+[[1;36mDEBUG[m] env.KONSOLE_VERSION: 230801
+[[1;36mDEBUG[m] env.LANG: C.UTF-8
+[[1;36mDEBUG[m] env.LANGUAGE: 
+[[1;36mDEBUG[m] env.LESS: -R
+[[1;36mDEBUG[m] env.LOGNAME: cr8
+[[1;36mDEBUG[m] env.LSCOLORS: Gxfxcxdxbxegedabagacad
+[[1;36mDEBUG[m] env.LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+[[1;36mDEBUG[m] env.M2_HOME: /usr/share/maven
+[[1;36mDEBUG[m] env.MANAGERPID: 2080
+[[1;36mDEBUG[m] env.MAVEN_CMD_LINE_ARGS:  spring-boot:run -X
+[[1;36mDEBUG[m] env.MAVEN_PROJECTBASEDIR: /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m] env.MEMORY_PRESSURE_WATCH: /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure
+[[1;36mDEBUG[m] env.MEMORY_PRESSURE_WRITE: c29tZSAyMDAwMDAgMjAwMDAwMAA=
+[[1;36mDEBUG[m] env.NVM_BIN: /home/cr8/.nvm/versions/node/v20.18.1/bin
+[[1;36mDEBUG[m] env.NVM_CD_FLAGS: -q
+[[1;36mDEBUG[m] env.NVM_DIR: /home/cr8/.nvm
+[[1;36mDEBUG[m] env.NVM_INC: /home/cr8/.nvm/versions/node/v20.18.1/include/node
+[[1;36mDEBUG[m] env.OLDPWD: /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m] env.PAGER: less
+[[1;36mDEBUG[m] env.PATH: /home/cr8/.nvm/versions/node/v20.18.1/bin:/usr/share/maven/bin:/usr/lib/jvm/java-21-openjdk-amd64/bin:/home/cr8/.local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/cr8/.dotnet/tools:/home/cr8/.local/share/JetBrains/Toolbox/scripts
+[[1;36mDEBUG[m] env.POWERSHELL_TELEMETRY_OPTOUT: 1
+[[1;36mDEBUG[m] env.POWERSHELL_UPDATECHECK: Off
+[[1;36mDEBUG[m] env.PROFILEHOME: 
+[[1;36mDEBUG[m] env.PWD: /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m] env.QTWEBENGINE_DICTIONARIES_PATH: /usr/share/hunspell-bdic/
+[[1;36mDEBUG[m] env.QT_ACCESSIBILITY: 1
+[[1;36mDEBUG[m] env.QT_AUTO_SCREEN_SCALE_FACTOR: 0
+[[1;36mDEBUG[m] env.QT_IM_MODULE: ibus
+[[1;36mDEBUG[m] env.QT_QPA_PLATFORMTHEME: qt5ct
+[[1;36mDEBUG[m] env.SESSION_MANAGER: local/kali:@/tmp/.ICE-unix/2307,unix/kali:/tmp/.ICE-unix/2307
+[[1;36mDEBUG[m] env.SHELL: /usr/bin/zsh
+[[1;36mDEBUG[m] env.SHELL_SESSION_ID: 56e9c643ac08440c8e02da9bbd1e6b1a
+[[1;36mDEBUG[m] env.SHLVL: 1
+[[1;36mDEBUG[m] env.SSH_AUTH_SOCK: /run/user/1000/keyring/ssh
+[[1;36mDEBUG[m] env.SYSTEMD_EXEC_PID: 2341
+[[1;36mDEBUG[m] env.TERM: xterm-256color
+[[1;36mDEBUG[m] env.USER: cr8
+[[1;36mDEBUG[m] env.USERNAME: cr8
+[[1;36mDEBUG[m] env.WINDOWID: 41943047
+[[1;36mDEBUG[m] env.WINDOWPATH: 2
+[[1;36mDEBUG[m] env.XAUTHORITY: /run/user/1000/gdm/Xauthority
+[[1;36mDEBUG[m] env.XDG_ACTIVATION_TOKEN: gnome-shell/Konsole/2341-28-kali_TIME113907637
+[[1;36mDEBUG[m] env.XDG_CURRENT_DESKTOP: GNOME
+[[1;36mDEBUG[m] env.XDG_DATA_DIRS: /usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+[[1;36mDEBUG[m] env.XDG_MENU_PREFIX: gnome-
+[[1;36mDEBUG[m] env.XDG_RUNTIME_DIR: /run/user/1000
+[[1;36mDEBUG[m] env.XDG_SESSION_CLASS: user
+[[1;36mDEBUG[m] env.XDG_SESSION_DESKTOP: gnome
+[[1;36mDEBUG[m] env.XDG_SESSION_TYPE: x11
+[[1;36mDEBUG[m] env.XMODIFIERS: @im=ibus
+[[1;36mDEBUG[m] env.ZSH: /home/cr8/.oh-my-zsh
+[[1;36mDEBUG[m] env._: /usr/share/maven/bin/mvn
+[[1;36mDEBUG[m] env._JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+[[1;36mDEBUG[m] file.encoding: UTF-8
+[[1;36mDEBUG[m] file.separator: /
+[[1;36mDEBUG[m] flyway.version: 9.22.3
+[[1;36mDEBUG[m] freemarker.version: 2.3.32
+[[1;36mDEBUG[m] git-commit-id-maven-plugin.version: 6.0.0
+[[1;36mDEBUG[m] glassfish-jaxb.version: 4.0.4
+[[1;36mDEBUG[m] glassfish-jstl.version: 3.0.1
+[[1;36mDEBUG[m] graphql-java.version: 21.3
+[[1;36mDEBUG[m] groovy.version: 4.0.16
+[[1;36mDEBUG[m] gson.version: 2.10.1
+[[1;36mDEBUG[m] h2.version: 2.2.224
+[[1;36mDEBUG[m] hamcrest.version: 2.2
+[[1;36mDEBUG[m] hazelcast.version: 5.3.6
+[[1;36mDEBUG[m] hibernate-validator.version: 8.0.1.Final
+[[1;36mDEBUG[m] hibernate.version: 6.4.1.Final
+[[1;36mDEBUG[m] hikaricp.version: 5.0.1
+[[1;36mDEBUG[m] hsqldb.version: 2.7.2
+[[1;36mDEBUG[m] htmlunit.version: 2.70.0
+[[1;36mDEBUG[m] httpasyncclient.version: 4.1.5
+[[1;36mDEBUG[m] httpclient5.version: 5.2.3
+[[1;36mDEBUG[m] httpcore.version: 4.4.16
+[[1;36mDEBUG[m] httpcore5.version: 5.2.4
+[[1;36mDEBUG[m] infinispan.version: 14.0.21.Final
+[[1;36mDEBUG[m] influxdb-java.version: 2.23
+[[1;36mDEBUG[m] jackson-bom.version: 2.15.3
+[[1;36mDEBUG[m] jakarta-activation.version: 2.1.2
+[[1;36mDEBUG[m] jakarta-annotation.version: 2.1.1
+[[1;36mDEBUG[m] jakarta-jms.version: 3.1.0
+[[1;36mDEBUG[m] jakarta-json-bind.version: 3.0.0
+[[1;36mDEBUG[m] jakarta-json.version: 2.1.3
+[[1;36mDEBUG[m] jakarta-mail.version: 2.1.2
+[[1;36mDEBUG[m] jakarta-management.version: 1.1.4
+[[1;36mDEBUG[m] jakarta-persistence.version: 3.1.0
+[[1;36mDEBUG[m] jakarta-servlet-jsp-jstl.version: 3.0.0
+[[1;36mDEBUG[m] jakarta-servlet.version: 6.0.0
+[[1;36mDEBUG[m] jakarta-transaction.version: 2.0.1
+[[1;36mDEBUG[m] jakarta-validation.version: 3.0.2
+[[1;36mDEBUG[m] jakarta-websocket.version: 2.1.1
+[[1;36mDEBUG[m] jakarta-ws-rs.version: 3.1.0
+[[1;36mDEBUG[m] jakarta-xml-bind.version: 4.0.1
+[[1;36mDEBUG[m] jakarta-xml-soap.version: 3.0.1
+[[1;36mDEBUG[m] jakarta-xml-ws.version: 4.0.1
+[[1;36mDEBUG[m] janino.version: 3.1.11
+[[1;36mDEBUG[m] jansi.mode: force
+[[1;36mDEBUG[m] java.class.path: /usr/share/maven/boot/plexus-classworlds-2.x.jar
+[[1;36mDEBUG[m] java.class.version: 65.0
+[[1;36mDEBUG[m] java.home: /usr/lib/jvm/java-21-openjdk-amd64
+[[1;36mDEBUG[m] java.io.tmpdir: /tmp
+[[1;36mDEBUG[m] java.library.path: /usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[[1;36mDEBUG[m] java.runtime.name: OpenJDK Runtime Environment
+[[1;36mDEBUG[m] java.runtime.version: 21.0.5+11-Debian-1
+[[1;36mDEBUG[m] java.specification.name: Java Platform API Specification
+[[1;36mDEBUG[m] java.specification.vendor: Oracle Corporation
+[[1;36mDEBUG[m] java.specification.version: 21
+[[1;36mDEBUG[m] java.vendor: Debian
+[[1;36mDEBUG[m] java.vendor.url: https://tracker.debian.org/openjdk-21
+[[1;36mDEBUG[m] java.vendor.url.bug: https://bugs.debian.org/openjdk-21
+[[1;36mDEBUG[m] java.version: 21.0.5
+[[1;36mDEBUG[m] java.version.date: 2024-10-15
+[[1;36mDEBUG[m] java.vm.compressedOopsMode: Zero based
+[[1;36mDEBUG[m] java.vm.info: mixed mode, sharing
+[[1;36mDEBUG[m] java.vm.name: OpenJDK 64-Bit Server VM
+[[1;36mDEBUG[m] java.vm.specification.name: Java Virtual Machine Specification
+[[1;36mDEBUG[m] java.vm.specification.vendor: Oracle Corporation
+[[1;36mDEBUG[m] java.vm.specification.version: 21
+[[1;36mDEBUG[m] java.vm.vendor: Debian
+[[1;36mDEBUG[m] java.vm.version: 21.0.5+11-Debian-1
+[[1;36mDEBUG[m] javax-cache.version: 1.1.1
+[[1;36mDEBUG[m] javax-money.version: 1.1
+[[1;36mDEBUG[m] jaxen.version: 2.0.0
+[[1;36mDEBUG[m] jaybird.version: 5.0.3.java11
+[[1;36mDEBUG[m] jboss-logging.version: 3.5.3.Final
+[[1;36mDEBUG[m] jdk.debug: release
+[[1;36mDEBUG[m] jdom2.version: 2.0.6.1
+[[1;36mDEBUG[m] jedis.version: 5.0.2
+[[1;36mDEBUG[m] jersey.version: 3.1.5
+[[1;36mDEBUG[m] jetty-reactive-httpclient.version: 4.0.1
+[[1;36mDEBUG[m] jetty.version: 12.0.5
+[[1;36mDEBUG[m] jmustache.version: 1.15
+[[1;36mDEBUG[m] jooq.version: 3.18.7
+[[1;36mDEBUG[m] json-path.version: 2.8.0
+[[1;36mDEBUG[m] json-smart.version: 2.5.0
+[[1;36mDEBUG[m] jsonassert.version: 1.5.1
+[[1;36mDEBUG[m] jtds.version: 1.3.1
+[[1;36mDEBUG[m] junit-jupiter.version: 5.10.1
+[[1;36mDEBUG[m] junit.version: 4.13.2
+[[1;36mDEBUG[m] kafka.version: 3.6.1
+[[1;36mDEBUG[m] kotlin-coroutines.version: 1.7.3
+[[1;36mDEBUG[m] kotlin-serialization.version: 1.6.2
+[[1;36mDEBUG[m] kotlin.version: 1.9.21
+[[1;36mDEBUG[m] lettuce.version: 6.3.0.RELEASE
+[[1;36mDEBUG[m] library.jansi.path: /usr/share/maven/lib/jansi-native
+[[1;36mDEBUG[m] line.separator: 
+
+[[1;36mDEBUG[m] liquibase.version: 4.24.0
+[[1;36mDEBUG[m] log4j2.version: 2.21.1
+[[1;36mDEBUG[m] logback.version: 1.4.14
+[[1;36mDEBUG[m] lombok.version: 1.18.30
+[[1;36mDEBUG[m] mariadb.version: 3.2.0
+[[1;36mDEBUG[m] maven-antrun-plugin.version: 3.1.0
+[[1;36mDEBUG[m] maven-assembly-plugin.version: 3.6.0
+[[1;36mDEBUG[m] maven-clean-plugin.version: 3.3.2
+[[1;36mDEBUG[m] maven-compiler-plugin.version: 3.11.0
+[[1;36mDEBUG[m] maven-dependency-plugin.version: 3.6.1
+[[1;36mDEBUG[m] maven-deploy-plugin.version: 3.1.1
+[[1;36mDEBUG[m] maven-enforcer-plugin.version: 3.4.1
+[[1;36mDEBUG[m] maven-failsafe-plugin.version: 3.1.2
+[[1;36mDEBUG[m] maven-help-plugin.version: 3.4.0
+[[1;36mDEBUG[m] maven-install-plugin.version: 3.1.1
+[[1;36mDEBUG[m] maven-invoker-plugin.version: 3.6.0
+[[1;36mDEBUG[m] maven-jar-plugin.version: 3.3.0
+[[1;36mDEBUG[m] maven-javadoc-plugin.version: 3.6.3
+[[1;36mDEBUG[m] maven-resources-plugin.version: 3.3.1
+[[1;36mDEBUG[m] maven-shade-plugin.version: 3.5.1
+[[1;36mDEBUG[m] maven-source-plugin.version: 3.3.0
+[[1;36mDEBUG[m] maven-surefire-plugin.version: 3.1.2
+[[1;36mDEBUG[m] maven-war-plugin.version: 3.4.0
+[[1;36mDEBUG[m] maven.build.timestamp: 2025-01-13T13:01:09Z
+[[1;36mDEBUG[m] maven.build.version: Apache Maven 3.8.8
+[[1;36mDEBUG[m] maven.compiler.release: 21
+[[1;36mDEBUG[m] maven.conf: /usr/share/maven/conf
+[[1;36mDEBUG[m] maven.home: /usr/share/maven
+[[1;36mDEBUG[m] maven.multiModuleProjectDirectory: /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m] maven.version: 3.8.8
+[[1;36mDEBUG[m] micrometer-tracing.version: 1.2.1
+[[1;36mDEBUG[m] micrometer.version: 1.12.1
+[[1;36mDEBUG[m] mockito.version: 5.7.0
+[[1;36mDEBUG[m] mongodb.version: 4.11.1
+[[1;36mDEBUG[m] mssql-jdbc.version: 12.4.2.jre11
+[[1;36mDEBUG[m] mysql.version: 8.1.0
+[[1;36mDEBUG[m] native-build-tools-plugin.version: 0.9.28
+[[1;36mDEBUG[m] native.encoding: UTF-8
+[[1;36mDEBUG[m] nekohtml.version: 1.9.22
+[[1;36mDEBUG[m] neo4j-java-driver.version: 5.13.0
+[[1;36mDEBUG[m] netty.version: 4.1.104.Final
+[[1;36mDEBUG[m] okhttp.version: 4.12.0
+[[1;36mDEBUG[m] opentelemetry.version: 1.31.0
+[[1;36mDEBUG[m] oracle-database.version: 23.3.0.23.09
+[[1;36mDEBUG[m] oracle-r2dbc.version: 1.1.1
+[[1;36mDEBUG[m] os.arch: amd64
+[[1;36mDEBUG[m] os.name: Linux
+[[1;36mDEBUG[m] os.version: 6.8.11-amd64
+[[1;36mDEBUG[m] path.separator: :
+[[1;36mDEBUG[m] pooled-jms.version: 3.1.5
+[[1;36mDEBUG[m] postgresql.version: 42.6.0
+[[1;36mDEBUG[m] project.baseUri: file:/home/cr8/projetos/saude-mosaico/
+[[1;36mDEBUG[m] project.build.sourceEncoding: UTF-8
+[[1;36mDEBUG[m] project.reporting.outputEncoding: UTF-8
+[[1;36mDEBUG[m] prometheus-client.version: 0.16.0
+[[1;36mDEBUG[m] pulsar-reactive.version: 0.5.1
+[[1;36mDEBUG[m] pulsar.version: 3.1.1
+[[1;36mDEBUG[m] quartz.version: 2.3.2
+[[1;36mDEBUG[m] querydsl.version: 5.0.0
+[[1;36mDEBUG[m] r2dbc-h2.version: 1.0.0.RELEASE
+[[1;36mDEBUG[m] r2dbc-mariadb.version: 1.1.4
+[[1;36mDEBUG[m] r2dbc-mssql.version: 1.0.2.RELEASE
+[[1;36mDEBUG[m] r2dbc-mysql.version: 1.0.5
+[[1;36mDEBUG[m] r2dbc-pool.version: 1.0.1.RELEASE
+[[1;36mDEBUG[m] r2dbc-postgresql.version: 1.0.3.RELEASE
+[[1;36mDEBUG[m] r2dbc-proxy.version: 1.1.3.RELEASE
+[[1;36mDEBUG[m] r2dbc-spi.version: 1.0.0.RELEASE
+[[1;36mDEBUG[m] rabbit-amqp-client.version: 5.19.0
+[[1;36mDEBUG[m] rabbit-stream-client.version: 0.14.0
+[[1;36mDEBUG[m] reactive-streams.version: 1.0.4
+[[1;36mDEBUG[m] reactor-bom.version: 2023.0.1
+[[1;36mDEBUG[m] resource.delimiter: @
+[[1;36mDEBUG[m] rest-assured.version: 5.3.2
+[[1;36mDEBUG[m] rsocket.version: 1.1.3
+[[1;36mDEBUG[m] rxjava3.version: 3.1.8
+[[1;36mDEBUG[m] saaj-impl.version: 3.0.3
+[[1;36mDEBUG[m] selenium-htmlunit.version: 4.13.0
+[[1;36mDEBUG[m] selenium.version: 4.14.1
+[[1;36mDEBUG[m] sendgrid.version: 4.9.3
+[[1;36mDEBUG[m] slf4j.version: 2.0.9
+[[1;36mDEBUG[m] snakeyaml.version: 2.2
+[[1;36mDEBUG[m] spring-amqp.version: 3.1.1
+[[1;36mDEBUG[m] spring-authorization-server.version: 1.2.1
+[[1;36mDEBUG[m] spring-batch.version: 5.1.0
+[[1;36mDEBUG[m] spring-data-bom.version: 2023.1.1
+[[1;36mDEBUG[m] spring-framework.version: 6.1.2
+[[1;36mDEBUG[m] spring-graphql.version: 1.2.4
+[[1;36mDEBUG[m] spring-hateoas.version: 2.2.0
+[[1;36mDEBUG[m] spring-integration.version: 6.2.1
+[[1;36mDEBUG[m] spring-kafka.version: 3.1.1
+[[1;36mDEBUG[m] spring-ldap.version: 3.2.1
+[[1;36mDEBUG[m] spring-pulsar.version: 1.0.1
+[[1;36mDEBUG[m] spring-restdocs.version: 3.0.1
+[[1;36mDEBUG[m] spring-retry.version: 2.0.5
+[[1;36mDEBUG[m] spring-security.version: 6.2.1
+[[1;36mDEBUG[m] spring-session.version: 3.2.1
+[[1;36mDEBUG[m] spring-ws.version: 4.0.9
+[[1;36mDEBUG[m] springdoc.version: 2.3.0
+[[1;36mDEBUG[m] sqlite-jdbc.version: 3.43.2.0
+[[1;36mDEBUG[m] stderr.encoding: UTF-8
+[[1;36mDEBUG[m] stdout.encoding: UTF-8
+[[1;36mDEBUG[m] sun.arch.data.model: 64
+[[1;36mDEBUG[m] sun.boot.library.path: /usr/lib/jvm/java-21-openjdk-amd64/lib
+[[1;36mDEBUG[m] sun.cpu.endian: little
+[[1;36mDEBUG[m] sun.io.unicode.encoding: UnicodeLittle
+[[1;36mDEBUG[m] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher spring-boot:run -X
+[[1;36mDEBUG[m] sun.java.launcher: SUN_STANDARD
+[[1;36mDEBUG[m] sun.jnu.encoding: UTF-8
+[[1;36mDEBUG[m] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[[1;36mDEBUG[m] swing.aatext: true
+[[1;36mDEBUG[m] testcontainers.version: 1.19.3
+[[1;36mDEBUG[m] thymeleaf-extras-data-attribute.version: 2.0.1
+[[1;36mDEBUG[m] thymeleaf-extras-springsecurity.version: 3.1.2.RELEASE
+[[1;36mDEBUG[m] thymeleaf-layout-dialect.version: 3.3.0
+[[1;36mDEBUG[m] thymeleaf.version: 3.1.2.RELEASE
+[[1;36mDEBUG[m] tomcat.version: 10.1.17
+[[1;36mDEBUG[m] unboundid-ldapsdk.version: 6.0.11
+[[1;36mDEBUG[m] undertow.version: 2.3.10.Final
+[[1;36mDEBUG[m] user.dir: /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m] user.home: /home/cr8
+[[1;36mDEBUG[m] user.language: en
+[[1;36mDEBUG[m] user.name: cr8
+[[1;36mDEBUG[m] versions-maven-plugin.version: 2.16.2
+[[1;36mDEBUG[m] webjars-locator-core.version: 0.55
+[[1;36mDEBUG[m] wsdl4j.version: 1.6.3
+[[1;36mDEBUG[m] xml-maven-plugin.version: 1.1.0
+[[1;36mDEBUG[m] xmlunit2.version: 2.9.1
+[[1;36mDEBUG[m] yasson.version: 3.0.3
+[[1;36mDEBUG[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;36mDEBUG[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;36mDEBUG[m] resource with targetPath null
+directory /home/cr8/projetos/saude-mosaico/src/test/resources
+excludes []
+includes []
+[[1;36mDEBUG[m] ignoreDelta true
+[[1;34mINFO[m] Copying 0 resource from src/test/resources to target/test-classes
+[[1;36mDEBUG[m] no user filter components
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36msaude-mosaico[0;1m ---[m
+[[1;36mDEBUG[m] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.11.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@639fee48]
+[[1;36mDEBUG[m] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile:default-testCompile' with basic configurator -->
+[[1;36mDEBUG[m]   (f) basedir = /home/cr8/projetos/saude-mosaico
+[[1;36mDEBUG[m]   (f) buildDirectory = /home/cr8/projetos/saude-mosaico/target
+[[1;36mDEBUG[m]   (f) compileSourceRoots = [/home/cr8/projetos/saude-mosaico/src/test/java]
+[[1;36mDEBUG[m]   (f) compilerId = javac
+[[1;36mDEBUG[m]   (f) createMissingPackageInfoClass = true
+[[1;36mDEBUG[m]   (f) debug = true
+[[1;36mDEBUG[m]   (f) debugFileName = javac-test
+[[1;36mDEBUG[m]   (f) enablePreview = false
+[[1;36mDEBUG[m]   (f) encoding = UTF-8
+[[1;36mDEBUG[m]   (f) failOnError = true
+[[1;36mDEBUG[m]   (f) failOnWarning = false
+[[1;36mDEBUG[m]   (f) forceJavacCompilerUse = false
+[[1;36mDEBUG[m]   (f) fork = false
+[[1;36mDEBUG[m]   (f) generatedTestSourcesDirectory = /home/cr8/projetos/saude-mosaico/target/generated-test-sources/test-annotations
+[[1;36mDEBUG[m]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile {execution: default-testCompile}
+[[1;36mDEBUG[m]   (f) optimize = false
+[[1;36mDEBUG[m]   (f) outputDirectory = /home/cr8/projetos/saude-mosaico/target/test-classes
+[[1;36mDEBUG[m]   (f) parameters = true
+[[1;36mDEBUG[m]   (f) project = MavenProject: br.com.saudemosaico:saude-mosaico:0.0.1-SNAPSHOT @ /home/cr8/projetos/saude-mosaico/pom.xml
+[[1;36mDEBUG[m]   (s) release = 21
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7186333e
+[[1;36mDEBUG[m]   (f) showCompilationChanges = false
+[[1;36mDEBUG[m]   (f) showDeprecation = false
+[[1;36mDEBUG[m]   (f) showWarnings = true
+[[1;36mDEBUG[m]   (f) skipMultiThreadWarning = false
+[[1;36mDEBUG[m]   (f) source = 1.8
+[[1;36mDEBUG[m]   (f) staleMillis = 0
+[[1;36mDEBUG[m]   (s) target = 1.8
+[[1;36mDEBUG[m]   (f) testPath = [/home/cr8/projetos/saude-mosaico/target/test-classes, /home/cr8/projetos/saude-mosaico/target/classes, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.2.1/spring-boot-starter-web-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.1/spring-boot-starter-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot/3.2.1/spring-boot-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.1/spring-boot-autoconfigure-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.1/spring-boot-starter-logging-3.2.1.jar, /home/cr8/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar, /home/cr8/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar, /home/cr8/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar, /home/cr8/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar, /home/cr8/.m2/repository/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar, /home/cr8/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar, /home/cr8/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.2.1/spring-boot-starter-json-3.2.1.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.2.1/spring-boot-starter-tomcat-3.2.1.jar, /home/cr8/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.17/tomcat-embed-core-10.1.17.jar, /home/cr8/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.17/tomcat-embed-websocket-10.1.17.jar, /home/cr8/.m2/repository/org/springframework/spring-web/6.1.2/spring-web-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-beans/6.1.2/spring-beans-6.1.2.jar, /home/cr8/.m2/repository/io/micrometer/micrometer-observation/1.12.1/micrometer-observation-1.12.1.jar, /home/cr8/.m2/repository/io/micrometer/micrometer-commons/1.12.1/micrometer-commons-1.12.1.jar, /home/cr8/.m2/repository/org/springframework/spring-webmvc/6.1.2/spring-webmvc-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-context/6.1.2/spring-context-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-expression/6.1.2/spring-expression-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.2.1/spring-boot-starter-data-jpa-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.2.1/spring-boot-starter-aop-3.2.1.jar, /home/cr8/.m2/repository/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.2.1/spring-boot-starter-jdbc-3.2.1.jar, /home/cr8/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar, /home/cr8/.m2/repository/org/springframework/spring-jdbc/6.1.2/spring-jdbc-6.1.2.jar, /home/cr8/.m2/repository/org/hibernate/orm/hibernate-core/6.4.1.Final/hibernate-core-6.4.1.Final.jar, /home/cr8/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar, /home/cr8/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar, /home/cr8/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar, /home/cr8/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar, /home/cr8/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar, /home/cr8/.m2/repository/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar, /home/cr8/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar, /home/cr8/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.4/jaxb-runtime-4.0.4.jar, /home/cr8/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.4/jaxb-core-4.0.4.jar, /home/cr8/.m2/repository/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1.jar, /home/cr8/.m2/repository/org/glassfish/jaxb/txw2/4.0.4/txw2-4.0.4.jar, /home/cr8/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar, /home/cr8/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar, /home/cr8/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar, /home/cr8/.m2/repository/org/springframework/data/spring-data-jpa/3.2.1/spring-data-jpa-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/data/spring-data-commons/3.2.1/spring-data-commons-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/spring-orm/6.1.2/spring-orm-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-tx/6.1.2/spring-tx-6.1.2.jar, /home/cr8/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar, /home/cr8/.m2/repository/org/springframework/spring-aspects/6.1.2/spring-aspects-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-security/3.2.1/spring-boot-starter-security-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/spring-aop/6.1.2/spring-aop-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/security/spring-security-config/6.2.1/spring-security-config-6.2.1.jar, /home/cr8/.m2/repository/org/springframework/security/spring-security-web/6.2.1/spring-security-web-6.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.2.1/spring-boot-starter-validation-3.2.1.jar, /home/cr8/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.17/tomcat-embed-el-10.1.17.jar, /home/cr8/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar, /home/cr8/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-amqp/3.2.1/spring-boot-starter-amqp-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/spring-messaging/6.1.2/spring-messaging-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/amqp/spring-rabbit/3.1.1/spring-rabbit-3.1.1.jar, /home/cr8/.m2/repository/org/springframework/amqp/spring-amqp/3.1.1/spring-amqp-3.1.1.jar, /home/cr8/.m2/repository/org/springframework/retry/spring-retry/2.0.5/spring-retry-2.0.5.jar, /home/cr8/.m2/repository/com/rabbitmq/amqp-client/5.19.0/amqp-client-5.19.0.jar, /home/cr8/.m2/repository/com/mysql/mysql-connector-j/8.1.0/mysql-connector-j-8.1.0.jar, /home/cr8/.m2/repository/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.3.0/springdoc-openapi-starter-webmvc-ui-2.3.0.jar, /home/cr8/.m2/repository/org/springdoc/springdoc-openapi-starter-webmvc-api/2.3.0/springdoc-openapi-starter-webmvc-api-2.3.0.jar, /home/cr8/.m2/repository/org/springdoc/springdoc-openapi-starter-common/2.3.0/springdoc-openapi-starter-common-2.3.0.jar, /home/cr8/.m2/repository/io/swagger/core/v3/swagger-core-jakarta/2.2.19/swagger-core-jakarta-2.2.19.jar, /home/cr8/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar, /home/cr8/.m2/repository/io/swagger/core/v3/swagger-annotations-jakarta/2.2.19/swagger-annotations-jakarta-2.2.19.jar, /home/cr8/.m2/repository/io/swagger/core/v3/swagger-models-jakarta/2.2.19/swagger-models-jakarta-2.2.19.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.3/jackson-dataformat-yaml-2.15.3.jar, /home/cr8/.m2/repository/org/webjars/swagger-ui/5.10.3/swagger-ui-5.10.3.jar, /home/cr8/.m2/repository/io/jsonwebtoken/jjwt-api/0.11.5/jjwt-api-0.11.5.jar, /home/cr8/.m2/repository/io/jsonwebtoken/jjwt-impl/0.11.5/jjwt-impl-0.11.5.jar, /home/cr8/.m2/repository/io/jsonwebtoken/jjwt-jackson/0.11.5/jjwt-jackson-0.11.5.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar, /home/cr8/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar, /home/cr8/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.2.1/spring-boot-starter-test-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-test/3.2.1/spring-boot-test-3.2.1.jar, /home/cr8/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.2.1/spring-boot-test-autoconfigure-3.2.1.jar, /home/cr8/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar, /home/cr8/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar, /home/cr8/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar, /home/cr8/.m2/repository/net/minidev/json-smart/2.5.0/json-smart-2.5.0.jar, /home/cr8/.m2/repository/net/minidev/accessors-smart/2.5.0/accessors-smart-2.5.0.jar, /home/cr8/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar, /home/cr8/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar, /home/cr8/.m2/repository/org/awaitility/awaitility/4.2.0/awaitility-4.2.0.jar, /home/cr8/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar, /home/cr8/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.1/junit-jupiter-5.10.1.jar, /home/cr8/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar, /home/cr8/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar, /home/cr8/.m2/repository/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar, /home/cr8/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar, /home/cr8/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.1/junit-jupiter-params-5.10.1.jar, /home/cr8/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar, /home/cr8/.m2/repository/org/junit/platform/junit-platform-engine/1.10.1/junit-platform-engine-1.10.1.jar, /home/cr8/.m2/repository/org/mockito/mockito-core/5.7.0/mockito-core-5.7.0.jar, /home/cr8/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.10/byte-buddy-agent-1.14.10.jar, /home/cr8/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar, /home/cr8/.m2/repository/org/mockito/mockito-junit-jupiter/5.7.0/mockito-junit-jupiter-5.7.0.jar, /home/cr8/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar, /home/cr8/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar, /home/cr8/.m2/repository/org/springframework/spring-core/6.1.2/spring-core-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-jcl/6.1.2/spring-jcl-6.1.2.jar, /home/cr8/.m2/repository/org/springframework/spring-test/6.1.2/spring-test-6.1.2.jar, /home/cr8/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar, /home/cr8/.m2/repository/org/springframework/security/spring-security-test/6.2.1/spring-security-test-6.2.1.jar, /home/cr8/.m2/repository/org/springframework/security/spring-security-core/6.2.1/spring-security-core-6.2.1.jar, /home/cr8/.m2/repository/org/springframework/security/spring-security-crypto/6.2.1/spring-security-crypto-6.2.1.jar]
+[[1;36mDEBUG[m]   (f) useIncrementalCompilation = true
+[[1;36mDEBUG[m]   (f) useModulePath = true
+[[1;36mDEBUG[m]   (f) verbose = false
+[[1;36mDEBUG[m] -- end configuration --
+[[1;36mDEBUG[m] Using compiler 'javac'.
+[[1;36mDEBUG[m] Adding /home/cr8/projetos/saude-mosaico/target/generated-test-sources/test-annotations to test-compile source roots:
+  /home/cr8/projetos/saude-mosaico/src/test/java
+[[1;36mDEBUG[m] New test-compile source roots:
+  /home/cr8/projetos/saude-mosaico/src/test/java
+  /home/cr8/projetos/saude-mosaico/target/generated-test-sources/test-annotations
+[[1;36mDEBUG[m] CompilerReuseStrategy: reuseCreated
+[[1;36mDEBUG[m] useIncrementalCompilation enabled
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36msaude-mosaico[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[m @ [36msaude-mosaico[0;1m ---[m
+[[1;36mDEBUG[m] Dependency collection stats {ConflictMarker.analyzeTime=103865, ConflictMarker.markTime=52040, ConflictMarker.nodeCount=56, ConflictIdSorter.graphTime=41825, ConflictIdSorter.topsortTime=34695, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1086283, ConflictResolver.conflictItemCount=55, DefaultDependencyCollector.collectTime=76824283, DefaultDependencyCollector.transformTime=1359115}
+[[1;36mDEBUG[m] org.springframework.boot:spring-boot-maven-plugin:jar:3.2.1
+[[1;36mDEBUG[m]    org.springframework.boot:spring-boot-buildpack-platform:jar:3.2.1:runtime
+[[1;36mDEBUG[m]       com.fasterxml.jackson.core:jackson-databind:jar:2.14.2:runtime
+[[1;36mDEBUG[m]          com.fasterxml.jackson.core:jackson-annotations:jar:2.14.2:runtime
+[[1;36mDEBUG[m]          com.fasterxml.jackson.core:jackson-core:jar:2.14.2:runtime
+[[1;36mDEBUG[m]       com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.14.2:runtime
+[[1;36mDEBUG[m]       net.java.dev.jna:jna-platform:jar:5.13.0:runtime
+[[1;36mDEBUG[m]          net.java.dev.jna:jna:jar:5.13.0:runtime
+[[1;36mDEBUG[m]       org.apache.commons:commons-compress:jar:1.23.0:runtime
+[[1;36mDEBUG[m]       org.apache.httpcomponents.client5:httpclient5:jar:5.2.3:runtime
+[[1;36mDEBUG[m]          org.apache.httpcomponents.core5:httpcore5:jar:5.2.4:runtime
+[[1;36mDEBUG[m]          org.apache.httpcomponents.core5:httpcore5-h2:jar:5.2.4:runtime
+[[1;36mDEBUG[m]       org.springframework:spring-core:jar:6.0.10:runtime
+[[1;36mDEBUG[m]          org.springframework:spring-jcl:jar:6.0.10:runtime
+[[1;36mDEBUG[m]       org.tomlj:tomlj:jar:1.0.0:runtime
+[[1;36mDEBUG[m]          org.antlr:antlr4-runtime:jar:4.7.2:runtime
+[[1;36mDEBUG[m]          com.google.code.findbugs:jsr305:jar:3.0.2:runtime
+[[1;36mDEBUG[m]    org.springframework.boot:spring-boot-loader-tools:jar:3.2.1:runtime
+[[1;36mDEBUG[m]    org.apache.maven.shared:maven-common-artifact-filters:jar:3.3.2:runtime
+[[1;36mDEBUG[m]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[[1;36mDEBUG[m]    org.springframework:spring-context:jar:6.1.2:runtime
+[[1;36mDEBUG[m]       org.springframework:spring-aop:jar:6.1.2:runtime
+[[1;36mDEBUG[m]       org.springframework:spring-beans:jar:6.1.2:runtime
+[[1;36mDEBUG[m]       org.springframework:spring-expression:jar:6.1.2:runtime
+[[1;36mDEBUG[m]       io.micrometer:micrometer-observation:jar:1.12.1:runtime
+[[1;36mDEBUG[m]          io.micrometer:micrometer-commons:jar:1.12.1:runtime
+[[1;36mDEBUG[m]    org.sonatype.plexus:plexus-build-api:jar:0.0.7:runtime
+[[1;36mDEBUG[m]       org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
+[[1;36mDEBUG[m]    org.apache.maven.plugins:maven-shade-plugin:jar:3.5.0:compile (optional)
+[[1;36mDEBUG[m]       org.ow2.asm:asm:jar:9.5:compile (optional)
+[[1;36mDEBUG[m]       org.ow2.asm:asm-commons:jar:9.5:compile (optional)
+[[1;36mDEBUG[m]          org.ow2.asm:asm-tree:jar:9.5:compile (optional)
+[[1;36mDEBUG[m]       org.jdom:jdom2:jar:2.0.6.1:compile (optional)
+[[1;36mDEBUG[m]       org.apache.maven.shared:maven-dependency-tree:jar:3.2.1:compile (optional)
+[[1;36mDEBUG[m]          org.eclipse.aether:aether-util:jar:1.0.0.v20140518:compile (optional)
+[[1;36mDEBUG[m]             org.eclipse.aether:aether-api:jar:1.0.0.v20140518:compile (optional)
+[[1;36mDEBUG[m]       commons-io:commons-io:jar:2.13.0:compile (optional)
+[[1;36mDEBUG[m]       org.vafer:jdependency:jar:2.8.0:compile (optional)
+[[1;36mDEBUG[m]       org.apache.commons:commons-collections4:jar:4.4:compile (optional)
+[[1;36mDEBUG[m] Created new class realm plugin>org.springframework.boot:spring-boot-maven-plugin:3.2.1
+[[1;36mDEBUG[m] Importing foreign packages into class realm plugin>org.springframework.boot:spring-boot-maven-plugin:3.2.1
+[[1;36mDEBUG[m]   Imported:  < maven.api
+[[1;36mDEBUG[m] Populating class realm plugin>org.springframework.boot:spring-boot-maven-plugin:3.2.1
+[[1;36mDEBUG[m]   Included: org.springframework.boot:spring-boot-maven-plugin:jar:3.2.1
+[[1;36mDEBUG[m]   Included: org.springframework.boot:spring-boot-buildpack-platform:jar:3.2.1
+[[1;36mDEBUG[m]   Included: com.fasterxml.jackson.core:jackson-databind:jar:2.14.2
+[[1;36mDEBUG[m]   Included: com.fasterxml.jackson.core:jackson-annotations:jar:2.14.2
+[[1;36mDEBUG[m]   Included: com.fasterxml.jackson.core:jackson-core:jar:2.14.2
+[[1;36mDEBUG[m]   Included: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.14.2
+[[1;36mDEBUG[m]   Included: net.java.dev.jna:jna-platform:jar:5.13.0
+[[1;36mDEBUG[m]   Included: net.java.dev.jna:jna:jar:5.13.0
+[[1;36mDEBUG[m]   Included: org.apache.commons:commons-compress:jar:1.23.0
+[[1;36mDEBUG[m]   Included: org.apache.httpcomponents.client5:httpclient5:jar:5.2.3
+[[1;36mDEBUG[m]   Included: org.apache.httpcomponents.core5:httpcore5:jar:5.2.4
+[[1;36mDEBUG[m]   Included: org.apache.httpcomponents.core5:httpcore5-h2:jar:5.2.4
+[[1;36mDEBUG[m]   Included: org.springframework:spring-core:jar:6.0.10
+[[1;36mDEBUG[m]   Included: org.springframework:spring-jcl:jar:6.0.10
+[[1;36mDEBUG[m]   Included: org.tomlj:tomlj:jar:1.0.0
+[[1;36mDEBUG[m]   Included: org.antlr:antlr4-runtime:jar:4.7.2
+[[1;36mDEBUG[m]   Included: com.google.code.findbugs:jsr305:jar:3.0.2
+[[1;36mDEBUG[m]   Included: org.springframework.boot:spring-boot-loader-tools:jar:3.2.1
+[[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.3.2
+[[1;36mDEBUG[m]   Included: org.springframework:spring-context:jar:6.1.2
+[[1;36mDEBUG[m]   Included: org.springframework:spring-aop:jar:6.1.2
+[[1;36mDEBUG[m]   Included: org.springframework:spring-beans:jar:6.1.2
+[[1;36mDEBUG[m]   Included: org.springframework:spring-expression:jar:6.1.2
+[[1;36mDEBUG[m]   Included: io.micrometer:micrometer-observation:jar:1.12.1
+[[1;36mDEBUG[m]   Included: io.micrometer:micrometer-commons:jar:1.12.1
+[[1;36mDEBUG[m]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[[1;36mDEBUG[m]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.8
+[[1;36mDEBUG[m]   Included: org.apache.maven.plugins:maven-shade-plugin:jar:3.5.0
+[[1;36mDEBUG[m]   Included: org.ow2.asm:asm:jar:9.5
+[[1;36mDEBUG[m]   Included: org.ow2.asm:asm-commons:jar:9.5
+[[1;36mDEBUG[m]   Included: org.ow2.asm:asm-tree:jar:9.5
+[[1;36mDEBUG[m]   Included: org.jdom:jdom2:jar:2.0.6.1
+[[1;36mDEBUG[m]   Included: org.apache.maven.shared:maven-dependency-tree:jar:3.2.1
+[[1;36mDEBUG[m]   Included: org.eclipse.aether:aether-util:jar:1.0.0.v20140518
+[[1;36mDEBUG[m]   Included: commons-io:commons-io:jar:2.13.0
+[[1;36mDEBUG[m]   Included: org.vafer:jdependency:jar:2.8.0
+[[1;36mDEBUG[m]   Included: org.apache.commons:commons-collections4:jar:4.4
+[[1;36mDEBUG[m] Loading mojo org.springframework.boot:spring-boot-maven-plugin:3.2.1:run from plugin realm ClassRealm[plugin>org.springframework.boot:spring-boot-maven-plugin:3.2.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@639fee48]
+[[1;36mDEBUG[m] Configuring mojo execution 'org.springframework.boot:spring-boot-maven-plugin:3.2.1:run:default-cli' with basic configurator -->
+[[1;36mDEBUG[m]   (f) addResources = false
+[[1;36mDEBUG[m]   (f) additionalClasspathElements = []
+[[1;36mDEBUG[m]   (f) agents = []
+[[1;36mDEBUG[m]   (f) classesDirectory = /home/cr8/projetos/saude-mosaico/target/classes
+[[1;36mDEBUG[m]   (f) directories = []
+[[1;36mDEBUG[m]   (f) groupId = org.projectlombok
+[[1;36mDEBUG[m]   (f) artifactId = lombok
+[[1;36mDEBUG[m]   (f) excludes = [org.springframework.boot.maven.Exclude@665522c2]
+[[1;36mDEBUG[m]   (f) includes = []
+[[1;36mDEBUG[m]   (f) optimizedLaunch = true
+[[1;36mDEBUG[m]   (f) profiles = []
+[[1;36mDEBUG[m]   (f) project = MavenProject: br.com.saudemosaico:saude-mosaico:0.0.1-SNAPSHOT @ /home/cr8/projetos/saude-mosaico/pom.xml
+[[1;36mDEBUG[m]   (f) session = org.apache.maven.execution.MavenSession@7186333e
+[[1;36mDEBUG[m]   (f) skip = false
+[[1;36mDEBUG[m]   (f) useTestClasspath = false
+[[1;36mDEBUG[m] -- end configuration --
+[[1;34mINFO[m] Attaching agents: []
+[[1;36mDEBUG[m] JVM argument(s): -XX:TieredStopAtLevel=1
+[[1;36mDEBUG[m] Classpath for forked process: /home/cr8/projetos/saude-mosaico/target/classes:/home/cr8/.m2/repository/org/springframework/boot/spring-boot/3.2.1/spring-boot-3.2.1.jar:/home/cr8/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.1/spring-boot-autoconfigure-3.2.1.jar:/home/cr8/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/home/cr8/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/home/cr8/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar:/home/cr8/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/home/cr8/.m2/repository/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar:/home/cr8/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/cr8/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/cr8/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar:/home/cr8/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar:/home/cr8/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar:/home/cr8/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.17/tomcat-embed-core-10.1.17.jar:/home/cr8/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.17/tomcat-embed-websocket-10.1.17.jar:/home/cr8/.m2/repository/org/springframework/spring-web/6.1.2/spring-web-6.1.2.jar:/home/cr8/.m2/repository/org/springframework/spring-beans/6.1.2/spring-beans-6.1.2.jar:/home/cr8/.m2/repository/io/micrometer/micrometer-observation/1.12.1/micrometer-observation-1.12.1.jar:/home/cr8/.m2/repository/io/micrometer/micrometer-commons/1.12.1/micrometer-commons-1.12.1.jar:/home/cr8/.m2/repository/org/springframework/spring-webmvc/6.1.2/spring-webmvc-6.1.2.jar:/home/cr8/.m2/repository/org/springframework/spring-context/6.1.2/spring-context-6.1.2.jar:/home/cr8/.m2/repository/org/springframework/spring-expression/6.1.2/spring-expression-6.1.2.jar:/home/cr8/.m2/repository/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21.jar:/home/cr8/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/home/cr8/.m2/repository/org/springframework/spring-jdbc/6.1.2/spring-jdbc-6.1.2.jar:/home/cr8/.m2/repository/org/hibernate/orm/hibernate-core/6.4.1.Final/hibernate-core-6.4.1.Final.jar:/home/cr8/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/cr8/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/cr8/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/home/cr8/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/home/cr8/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/home/cr8/.m2/repository/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar:/home/cr8/.m2/repository/net/bytebuddy/byte-buddy/1.14.10/byte-buddy-1.14.10.jar:/home/cr8/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.4/jaxb-runtime-4.0.4.jar:/home/cr8/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.4/jaxb-core-4.0.4.jar:/home/cr8/.m2/repository/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1.jar:/home/cr8/.m2/repository/org/glassfish/jaxb/txw2/4.0.4/txw2-4.0.4.jar:/home/cr8/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/home/cr8/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/cr8/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/home/cr8/.m2/repository/org/springframework/data/spring-data-jpa/3.2.1/spring-data-jpa-3.2.1.jar:/home/cr8/.m2/repository/org/springframework/data/spring-data-commons/3.2.1/spring-data-commons-3.2.1.jar:/home/cr8/.m2/repository/org/springframework/spring-orm/6.1.2/spring-orm-6.1.2.jar:/home/cr8/.m2/repository/org/springframework/spring-tx/6.1.2/spring-tx-6.1.2.jar:/home/cr8/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/home/cr8/.m2/repository/org/springframework/spring-aspects/6.1.2/spring-aspects-6.1.2.jar:/home/cr8/.m2/repository/org/springframework/spring-aop/6.1.2/spring-aop-6.1.2.jar:/home/cr8/.m2/repository/org/springframework/security/spring-security-config/6.2.1/spring-security-config-6.2.1.jar:/home/cr8/.m2/repository/org/springframework/security/spring-security-web/6.2.1/spring-security-web-6.2.1.jar:/home/cr8/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.17/tomcat-embed-el-10.1.17.jar:/home/cr8/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar:/home/cr8/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/home/cr8/.m2/repository/org/springframework/spring-messaging/6.1.2/spring-messaging-6.1.2.jar:/home/cr8/.m2/repository/org/springframework/amqp/spring-rabbit/3.1.1/spring-rabbit-3.1.1.jar:/home/cr8/.m2/repository/org/springframework/amqp/spring-amqp/3.1.1/spring-amqp-3.1.1.jar:/home/cr8/.m2/repository/org/springframework/retry/spring-retry/2.0.5/spring-retry-2.0.5.jar:/home/cr8/.m2/repository/com/rabbitmq/amqp-client/5.19.0/amqp-client-5.19.0.jar:/home/cr8/.m2/repository/com/mysql/mysql-connector-j/8.1.0/mysql-connector-j-8.1.0.jar:/home/cr8/.m2/repository/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.3.0/springdoc-openapi-starter-webmvc-ui-2.3.0.jar:/home/cr8/.m2/repository/org/springdoc/springdoc-openapi-starter-webmvc-api/2.3.0/springdoc-openapi-starter-webmvc-api-2.3.0.jar:/home/cr8/.m2/repository/org/springdoc/springdoc-openapi-starter-common/2.3.0/springdoc-openapi-starter-common-2.3.0.jar:/home/cr8/.m2/repository/io/swagger/core/v3/swagger-core-jakarta/2.2.19/swagger-core-jakarta-2.2.19.jar:/home/cr8/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/cr8/.m2/repository/io/swagger/core/v3/swagger-annotations-jakarta/2.2.19/swagger-annotations-jakarta-2.2.19.jar:/home/cr8/.m2/repository/io/swagger/core/v3/swagger-models-jakarta/2.2.19/swagger-models-jakarta-2.2.19.jar:/home/cr8/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.3/jackson-dataformat-yaml-2.15.3.jar:/home/cr8/.m2/repository/org/webjars/swagger-ui/5.10.3/swagger-ui-5.10.3.jar:/home/cr8/.m2/repository/io/jsonwebtoken/jjwt-api/0.11.5/jjwt-api-0.11.5.jar:/home/cr8/.m2/repository/io/jsonwebtoken/jjwt-impl/0.11.5/jjwt-impl-0.11.5.jar:/home/cr8/.m2/repository/io/jsonwebtoken/jjwt-jackson/0.11.5/jjwt-jackson-0.11.5.jar:/home/cr8/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar:/home/cr8/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar:/home/cr8/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar:/home/cr8/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar:/home/cr8/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/home/cr8/.m2/repository/org/springframework/spring-core/6.1.2/spring-core-6.1.2.jar:/home/cr8/.m2/repository/org/springframework/spring-jcl/6.1.2/spring-jcl-6.1.2.jar:/home/cr8/.m2/repository/org/springframework/security/spring-security-core/6.2.1/spring-security-core-6.2.1.jar:/home/cr8/.m2/repository/org/springframework/security/spring-security-crypto/6.2.1/spring-security-crypto-6.2.1.jar
+[[1;36mDEBUG[m] Application argument(s): 
+[[1;36mDEBUG[m] Environment variable(s): 
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2025-01-13T10:01:10.655-03:00  INFO 1496021 --- [           main] b.c.s.SaudeMosaicoApplication            : Starting SaudeMosaicoApplication using Java 21.0.5 with PID 1496021 (/home/cr8/projetos/saude-mosaico/target/classes started by cr8 in /home/cr8/projetos/saude-mosaico)
+2025-01-13T10:01:10.658-03:00  INFO 1496021 --- [           main] b.c.s.SaudeMosaicoApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-01-13T10:01:11.546-03:00  INFO 1496021 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-13T10:01:11.646-03:00  INFO 1496021 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 5 JPA repository interfaces.
+2025-01-13T10:01:12.111-03:00  INFO 1496021 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-13T10:01:12.122-03:00  INFO 1496021 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-13T10:01:12.122-03:00  INFO 1496021 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2025-01-13T10:01:12.169-03:00  INFO 1496021 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-13T10:01:12.170-03:00  INFO 1496021 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1466 ms
+2025-01-13T10:01:12.335-03:00  INFO 1496021 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-13T10:01:12.370-03:00  INFO 1496021 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-01-13T10:01:12.394-03:00  INFO 1496021 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-13T10:01:12.566-03:00  INFO 1496021 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-13T10:01:12.588-03:00  INFO 1496021 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-13T10:01:12.855-03:00  INFO 1496021 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29f3185c
+2025-01-13T10:01:12.856-03:00  INFO 1496021 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-13T10:01:14.046-03:00  INFO 1496021 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: alter table agendamentos drop foreign key FKe34vsu91fmybdt3jx8y28vwj9
+Hibernate: alter table agendamentos drop foreign key FKg4dilwlct1ad3qf71c4u9narx
+Hibernate: alter table colaboradores drop foreign key FK7na3r4cw6w0xms5rit71ujai
+Hibernate: alter table especialidades drop foreign key FKovcyuwlgvn2f5l81yhowda65q
+Hibernate: drop table if exists agendamentos
+Hibernate: drop table if exists colaboradores
+Hibernate: drop table if exists enderecos
+Hibernate: drop table if exists especialidades
+Hibernate: drop table if exists usuarios
+Hibernate: create table agendamentos (data_hora datetime(6) not null, especialidade_id bigint not null, id bigint not null auto_increment, paciente_id bigint not null, link_consulta varchar(255) not null, status enum ('AGENDADO','CONFIRMADO','CANCELADO','REALIZADO','NAO_COMPARECEU') not null, primary key (id)) engine=InnoDB
+Hibernate: create table colaboradores (endereco_id bigint not null, id bigint not null auto_increment, cpf varchar(11) not null, email varchar(100) not null, nome varchar(100) not null, primary key (id)) engine=InnoDB
+Hibernate: create table enderecos (estado varchar(2) not null, cep varchar(8) not null, id bigint not null auto_increment, numero varchar(10) not null, bairro varchar(50) not null, logradouro varchar(100) not null, primary key (id)) engine=InnoDB
+Hibernate: create table especialidades (colaborador_id bigint not null, id bigint not null auto_increment, descricao varchar(255) not null, especialidade enum ('ASSISTENTE_SOCIAL','CLINICO_GERAL','MEDICO_DE_FAMILIA','NEUROLOGISTA','GERIATRIA','PEDIATRIA','NUTRICIONISTA','PSICOLOGIA','PSIQUIATRIA') not null, primary key (id)) engine=InnoDB
+Hibernate: create table usuarios (id bigint not null auto_increment, email varchar(255) not null, nome varchar(255) not null, senha varchar(255) not null, role enum ('ADMIN','USUARIO_PADRAO','PACIENTE') not null, primary key (id)) engine=InnoDB
+Hibernate: alter table colaboradores add constraint UK_4pc8164bvlel955o3glo5j9pj unique (endereco_id)
+Hibernate: alter table colaboradores add constraint UK_js76mkcfmyaqfvfq5b1a9tv2a unique (cpf)
+Hibernate: alter table colaboradores add constraint UK_ri9jj3oi860ua516fs7t0jmfd unique (email)
+Hibernate: alter table usuarios add constraint UK_kfsp0s1tflm1cwlj8idhqsad0 unique (email)
+Hibernate: alter table agendamentos add constraint FKe34vsu91fmybdt3jx8y28vwj9 foreign key (especialidade_id) references especialidades (id)
+Hibernate: alter table agendamentos add constraint FKg4dilwlct1ad3qf71c4u9narx foreign key (paciente_id) references usuarios (id)
+Hibernate: alter table colaboradores add constraint FK7na3r4cw6w0xms5rit71ujai foreign key (endereco_id) references enderecos (id)
+Hibernate: alter table especialidades add constraint FKovcyuwlgvn2f5l81yhowda65q foreign key (colaborador_id) references colaboradores (id)
+2025-01-13T10:01:14.661-03:00  INFO 1496021 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-13T10:01:14.960-03:00  INFO 1496021 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-13T10:01:15.407-03:00  WARN 1496021 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [/home/cr8/projetos/saude-mosaico/target/classes/br/com/saudemosaico/controller/AuthController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'jwtTokenProvider': Injection of autowired dependencies failed
+2025-01-13T10:01:15.411-03:00  INFO 1496021 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-13T10:01:15.412-03:00  INFO 1496021 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-13T10:01:15.418-03:00  INFO 1496021 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-13T10:01:15.419-03:00  INFO 1496021 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-01-13T10:01:15.429-03:00  INFO 1496021 --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-13T10:01:15.440-03:00 ERROR 1496021 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [/home/cr8/projetos/saude-mosaico/target/classes/br/com/saudemosaico/controller/AuthController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'jwtTokenProvider': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:802) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:241) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:960) ~[spring-context-6.1.2.jar:6.1.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.2.jar:6.1.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.1.jar:3.2.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762) ~[spring-boot-3.2.1.jar:3.2.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:464) ~[spring-boot-3.2.1.jar:3.2.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.1.jar:3.2.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1358) ~[spring-boot-3.2.1.jar:3.2.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1347) ~[spring-boot-3.2.1.jar:3.2.1]
+	at br.com.saudemosaico.SaudeMosaicoApplication.main(SaudeMosaicoApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtTokenProvider': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:514) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1418) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:911) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789) ~[spring-beans-6.1.2.jar:6.1.2]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jwt.secret' in value "${jwt.secret}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180) ~[spring-core-6.1.2.jar:6.1.2]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-6.1.2.jar:6.1.2]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-6.1.2.jar:6.1.2]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-6.1.2.jar:6.1.2]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200) ~[spring-context-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:921) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.2.jar:6.1.2]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508) ~[spring-beans-6.1.2.jar:6.1.2]
+	... 31 common frames omitted
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.945 s
+[[1;34mINFO[m] Finished at: 2025-01-13T10:01:15-03:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.springframework.boot:spring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[m on project [36msaude-mosaico[m: [1;31mProcess terminated with exit code: 1[m -> [1m[Help 1][m
+[1;31morg.apache.maven.lifecycle.LifecycleExecutionException[m: [1;31mFailed to execute goal [32morg.springframework.boot:spring-boot-maven-plugin:3.2.1:run[m [1m(default-cli)[m on project [36msaude-mosaico[m: [1;31mProcess terminated with exit code: 1[m[m
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 ([1mMojoExecutor.java:375[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:351[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:215[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:171[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:163[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:299[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:193[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:106[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:963[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:296[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:199[m)
+    [1mat[m jdk.internal.reflect.DirectMethodHandleAccessor.invoke ([1mDirectMethodHandleAccessor.java:103[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:580[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:283[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:226[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:407[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:348[m)
+[1mCaused by[m: org.apache.maven.plugin.MojoExecutionException: [1;31mProcess terminated with exit code: 1[m
+    [1mat[m org.springframework.boot.maven.JavaProcessExecutor.run ([1mJavaProcessExecutor.java:74[m)
+    [1mat[m org.springframework.boot.maven.RunMojo.run ([1mRunMojo.java:76[m)
+    [1mat[m org.springframework.boot.maven.AbstractRunMojo.run ([1mAbstractRunMojo.java:242[m)
+    [1mat[m org.springframework.boot.maven.AbstractRunMojo.execute ([1mAbstractRunMojo.java:209[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 ([1mMojoExecutor.java:370[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.doExecute ([1mMojoExecutor.java:351[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:215[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:171[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:163[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:299[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:193[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:106[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:963[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:296[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:199[m)
+    [1mat[m jdk.internal.reflect.DirectMethodHandleAccessor.invoke ([1mDirectMethodHandleAccessor.java:103[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:580[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:283[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:226[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:407[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:348[m)
+[[1;31mERROR[m] 
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
