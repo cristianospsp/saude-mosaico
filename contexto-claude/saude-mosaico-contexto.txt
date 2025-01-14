@@ -1,0 +1,80 @@
+PROJETO SAÚDE MOSAICO - CONTEXTO ATUAL
+
+1. STACK TECNOLÓGICA
+Backend:
+- Java 21
+- Spring Boot 3.2.1
+- Spring Data JPA
+- MySQL 8.0
+- Thymeleaf para templates
+
+Frontend (Em desenvolvimento):
+- Páginas HTML com Thymeleaf
+- CSS puro
+- JavaScript básico
+- Flatpickr para calendário
+
+Infraestrutura:
+- Docker/Docker Compose
+- MySQL em container
+
+2. ESTRUTURA ATUAL DO PROJETO
+~/projetos/saude-mosaico/
+├── src/main/java/br/com/saudemosaico/
+│   ├── controller/
+│   │   ├── PrincipalController.java
+│   │   └── AgendamentoController.java
+│   ├── domain/
+│   │   ├── Colaborador.java
+│   │   └── Endereco.java
+│   ├── repository/
+│   │   └── ColaboradorRepository.java
+│   ├── service/
+│   │   └── ColaboradorService.java
+│   └── SaudeMosaicoApplication.java
+├── src/main/resources/
+│   ├── templates/
+│   │   ├── principal.html
+│   │   └── novo-agendamento.html
+│   ├── static/css/
+│   │   └── style.css
+│   └── application.properties
+└── docker-compose.yml
+
+3. FUNCIONALIDADES IMPLEMENTADAS
+- Navegação básica entre telas
+- Tela principal com lista de agendamentos (dados mockados)
+- Tela de novo agendamento com:
+  * Seleção de especialidade
+  * Seleção de profissional (dinâmico)
+  * Calendário para escolha de data/hora
+  * Botões de ação (Agendar/Cancelar)
+
+4. PRÓXIMOS PASSOS
+- Integrar com banco de dados
+- Implementar persistência real dos agendamentos
+- Implementar sistema de notificações
+- Adicionar autenticação/autorização
+- Desenvolver dashboard para profissionais
+- Implementar validações de horários disponíveis
+
+5. COMANDOS IMPORTANTES
+# Subir aplicação
+cd ~/projetos/saude-mosaico
+mvn spring-boot:run
+
+# Subir banco de dados (quando necessário)
+docker-compose up -d
+
+# Acessar aplicação
+http://localhost:8080/principal
+http://localhost:8080/novo-agendamento
+
+6. OBSERVAÇÕES IMPORTANTES
+- Atualmente usando dados mockados para teste de navegação
+- Estrutura preparada para evolução gradual
+- Foco atual no MVP (Minimum Viable Product)
+- Design seguindo padrões Google (clean e intuitivo)
+
+7. REPOSITÓRIO
+GitHub: https://github.com/cristianospsp/saude-mosaico.git

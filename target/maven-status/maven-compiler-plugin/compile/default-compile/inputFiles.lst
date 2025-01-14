@@ -1,6 +1,16 @@
+/home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/controller/PrincipalController.java
 /home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/domain/Colaborador.java
+/home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/domain/Cargo.java
 /home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/controller/ColaboradorController.java
 /home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/repository/ColaboradorRepository.java
+/home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/controller/LoginController.java
 /home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/SaudeMosaicoApplication.java
 /home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/service/ColaboradorService.java
+/home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/exception/ErrorHandler.java
 /home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/domain/Endereco.java
+/home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/controller/HelloController.java
+/home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/controller/CriarContaController.java
+/home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/exception/CustomExceptionHandler.java
+/home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/controller/AgendamentoController.java
+/home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/service/LoginService.java
+/home/cr8/projetos/saude-mosaico/src/main/java/br/com/saudemosaico/controller/ColaboradorViewController.java

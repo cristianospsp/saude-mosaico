@@ -24,11 +24,16 @@ public class ColaboradorService {
     }
     
     public Colaborador atualizar(Long id, Colaborador colaborador) {
-        colaboradorRepository.findById(id)
+        Colaborador colaboradorExistente = colaboradorRepository.findById(id)
             .orElseThrow(() -> new EntityNotFoundException("Colaborador não encontrado"));
-            
-        colaborador.setId(id);
-        return colaboradorRepository.save(colaborador);
+        
+        colaboradorExistente.setNome(colaborador.getNome());
+        colaboradorExistente.setEmail(colaborador.getEmail());
+        colaboradorExistente.setCpf(colaborador.getCpf());
+        colaboradorExistente.setCargo(colaborador.getCargo());
+        colaboradorExistente.setEndereco(colaborador.getEndereco());
+        
+        return colaboradorRepository.save(colaboradorExistente);
     }
     
     public void deletar(Long id) {

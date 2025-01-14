@@ -19,6 +19,9 @@ public class Colaborador {
     
     @Column(nullable = false, unique = true)
     private String cpf;
+
+    @Enumerated(EnumType.STRING)
+    private Cargo cargo;
     
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "endereco_id")

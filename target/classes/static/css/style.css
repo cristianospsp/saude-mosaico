@@ -1,0 +1,82 @@
+.container-principal {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn-criar-agendamento {
+    background-color: #1a73e8;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.lista-agendamentos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.agendamento {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilos para botões */
+.btn-criar-agendamento {
+    display: inline-block;
+    background-color: #1a73e8;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.btn-criar-agendamento:hover {
+    background-color: #1557b0;
+    text-decoration: none;
+    color: white;
+}
+
+.lista-colaboradores {
+    display: grid;
+    gap: 20px;
+}
+
+.colaborador {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+.colaborador h2 {
+    color: #1a73e8;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.colaborador p {
+    margin: 5px 0;
+    color: #5f6368;
+}
+
+.endereco {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
