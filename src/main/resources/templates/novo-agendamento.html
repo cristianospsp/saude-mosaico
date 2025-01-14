@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Novo Agendamento</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body>
+    <div class="container-agendamento">
+        <h1>Novo Agendamento</h1>
+        
+        <form id="agendamentoForm" action="/agendar" method="post">
+            <div class="form-group">
+                <label for="especialidade">Especialidade:</label>
+                <select id="especialidade" name="especialidade" required onchange="carregarProfissionais()">
+                    <option value="">Selecione uma especialidade</option>
+                    <option th:each="esp : ${especialidades}" th:value="${esp}" th:text="${esp}"></option>
+                </select>
+            </div>
+
+            <div class="form-group" id="profissionaisDiv" style="display: none;">
+                <label for="profissional">Profissional:</label>
+                <select id="profissional" name="profissional" required>
+                    <option value="">Selecione um profissional</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="dataHora">Data e Hora:</label>
+                <input type="text" id="dataHora" name="dataHora" required>
+            </div>
+
+            <div class="buttons-group">
+                <a href="/principal" class="btn-cancelar">Cancelar</a>
+                <button type="submit" class="btn-agendar">AGENDAR</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Configuração do calendário
+        flatpickr("#dataHora", {
+            enableTime: true,
+            dateFormat: "d/m/Y H:i",
+            minDate: "today",
+            locale: "pt"
+        });
+
+        // Função para simular carregamento de profissionais
+        function carregarProfissionais() {
+            const especialidade = document.getElementById('especialidade').value;
+            const profissionaisDiv = document.getElementById('profissionaisDiv');
+            const profissionalSelect = document.getElementById('profissional');
+            
+            if (especialidade) {
+                // Dados mockados dos profissionais
+                const profissionaisMock = {
+                    'Clínico Geral': ['Dr. João Silva', 'Dra. Maria Santos'],
+                    'Pediatria': ['Dra. Ana Oliveira', 'Dr. Pedro Lima'],
+                    'Psicologia': ['Dra. Cristinha de Oliveira', 'Dr. Roberto Campos'],
+                    'Cardiologia': ['Dr. João Paulo da Silva', 'Dra. Carla Souza'],
+                    'Neurologia': ['Dr. Ricardo Mendes', 'Dra. Patricia Costa']
+                };
+
+                profissionalSelect.innerHTML = '<option value="">Selecione um profissional</option>';
+                profissionaisMock[especialidade].forEach(prof => {
+                    const option = new Option(prof, prof);
+                    profissionalSelect.add(option);
+                });
+                
+                profissionaisDiv.style.display = 'block';
+            } else {
+                profissionaisDiv.style.display = 'none';
+            }
+        }
+    </script>
+
+    <style>
+        .container-agendamento {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group select,
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .buttons-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .btn-cancelar {
+            background-color: #f0f0f0;
+            color: #333;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .btn-agendar {
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            flex-grow: 1;
+        }
+
+        .btn-agendar:hover {
+            background-color: #1557b0;
+        }
+    </style>
+</body>
+</html>

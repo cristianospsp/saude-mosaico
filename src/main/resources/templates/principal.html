@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Principal</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <header>
+        <h1>Paciente: Carlos Manoel da Silva - Idade: 45</h1>
+        <p>Email: cmanoel@gmail.com</p>
+    </header>
+    <div class="container-principal">
+        <a href="/novo-agendamento" class="btn-criar-agendamento">Criar novo agendamento</a>
+        <div class="lista-agendamentos">
+            <div class="agendamento">
+                <h2>Dra. Cristinha de Oliveira</h2>
+                <p>Especialidade: Psicologia</p>
+                <p>Data/Hora da consulta: 25/04/2025 - 15:00</p>
+            </div>
+            <div class="agendamento">
+                <h2>Dr. João Paulo da Silva</h2>
+                <p>Especialidade: Cardiologia</p>
+                <p>Data/Hora da consulta: 30/04/2025 - 10:00</p>
+            </div>
+            <div class="agendamento">
+                <h2>Dra. Maria Luiza de Souza</h2>
+                <p>Especialidade: Pediatria</p>
+                <p>Data/Hora da consulta: 02/05/2025 - 14:00</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

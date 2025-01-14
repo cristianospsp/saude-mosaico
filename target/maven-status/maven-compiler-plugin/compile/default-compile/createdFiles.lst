@@ -1,6 +1,0 @@
-br/com/saudemosaico/domain/Colaborador.class
-br/com/saudemosaico/repository/ColaboradorRepository.class
-br/com/saudemosaico/controller/ColaboradorController.class
-br/com/saudemosaico/domain/Endereco.class
-br/com/saudemosaico/service/ColaboradorService.class
-br/com/saudemosaico/SaudeMosaicoApplication.class
